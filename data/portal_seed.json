@@ -1,0 +1,3026 @@
+{
+ "note": "Seed data for the fake legacy portal. 演示数据均为虚构。",
+ "generator": "tools/make_data.py",
+ "random_seed": 20261116,
+ "system_date": "2026-11-16",
+ "users": [
+  {
+   "username": "op01",
+   "password": "Ruifeng#2026",
+   "display": "录单员 01"
+  }
+ ],
+ "stock": [
+  {
+   "sku": "1.01.0001",
+   "on_hand": 345,
+   "reserved": 64,
+   "active": true
+  },
+  {
+   "sku": "1.01.0002",
+   "on_hand": 329,
+   "reserved": 73,
+   "active": true
+  },
+  {
+   "sku": "1.01.0003",
+   "on_hand": 13,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "1.01.0004",
+   "on_hand": 6,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "1.01.0005",
+   "on_hand": 514,
+   "reserved": 62,
+   "active": true
+  },
+  {
+   "sku": "1.01.0006",
+   "on_hand": 577,
+   "reserved": 133,
+   "active": true
+  },
+  {
+   "sku": "1.01.0007",
+   "on_hand": 447,
+   "reserved": 71,
+   "active": true
+  },
+  {
+   "sku": "1.01.0008",
+   "on_hand": 365,
+   "reserved": 71,
+   "active": true
+  },
+  {
+   "sku": "1.01.0009",
+   "on_hand": 263,
+   "reserved": 4,
+   "active": true
+  },
+  {
+   "sku": "1.01.0010",
+   "on_hand": 229,
+   "reserved": 36,
+   "active": true
+  },
+  {
+   "sku": "1.01.0011",
+   "on_hand": 445,
+   "reserved": 51,
+   "active": true
+  },
+  {
+   "sku": "1.01.0012",
+   "on_hand": 468,
+   "reserved": 82,
+   "active": true
+  },
+  {
+   "sku": "1.01.0013",
+   "on_hand": 125,
+   "reserved": 29,
+   "active": true
+  },
+  {
+   "sku": "1.01.0014",
+   "on_hand": 209,
+   "reserved": 11,
+   "active": true
+  },
+  {
+   "sku": "1.01.0015",
+   "on_hand": 233,
+   "reserved": 52,
+   "active": true
+  },
+  {
+   "sku": "1.01.0016",
+   "on_hand": 593,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "1.01.0017",
+   "on_hand": 6,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "1.01.0018",
+   "on_hand": 405,
+   "reserved": 62,
+   "active": true
+  },
+  {
+   "sku": "1.01.0019",
+   "on_hand": 161,
+   "reserved": 12,
+   "active": true
+  },
+  {
+   "sku": "1.01.0020",
+   "on_hand": 141,
+   "reserved": 15,
+   "active": true
+  },
+  {
+   "sku": "1.01.0021",
+   "on_hand": 546,
+   "reserved": 60,
+   "active": true
+  },
+  {
+   "sku": "1.01.0022",
+   "on_hand": 402,
+   "reserved": 14,
+   "active": true
+  },
+  {
+   "sku": "1.01.0023",
+   "on_hand": 169,
+   "reserved": 37,
+   "active": true
+  },
+  {
+   "sku": "1.01.0024",
+   "on_hand": 83,
+   "reserved": 6,
+   "active": true
+  },
+  {
+   "sku": "1.01.0025",
+   "on_hand": 461,
+   "reserved": 26,
+   "active": true
+  },
+  {
+   "sku": "1.01.0026",
+   "on_hand": 508,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "1.01.0027",
+   "on_hand": 427,
+   "reserved": 104,
+   "active": true
+  },
+  {
+   "sku": "1.01.0028",
+   "on_hand": 122,
+   "reserved": 29,
+   "active": true
+  },
+  {
+   "sku": "1.01.0029",
+   "on_hand": 191,
+   "reserved": 40,
+   "active": true
+  },
+  {
+   "sku": "1.01.0030",
+   "on_hand": 324,
+   "reserved": 37,
+   "active": true
+  },
+  {
+   "sku": "1.01.0031",
+   "on_hand": 433,
+   "reserved": 107,
+   "active": true
+  },
+  {
+   "sku": "1.01.0032",
+   "on_hand": 249,
+   "reserved": 24,
+   "active": true
+  },
+  {
+   "sku": "1.01.0033",
+   "on_hand": 398,
+   "reserved": 97,
+   "active": true
+  },
+  {
+   "sku": "1.01.0034",
+   "on_hand": 124,
+   "reserved": 29,
+   "active": true
+  },
+  {
+   "sku": "1.01.0035",
+   "on_hand": 565,
+   "reserved": 29,
+   "active": true
+  },
+  {
+   "sku": "1.01.0036",
+   "on_hand": 310,
+   "reserved": 49,
+   "active": true
+  },
+  {
+   "sku": "1.01.0037",
+   "on_hand": 410,
+   "reserved": 94,
+   "active": true
+  },
+  {
+   "sku": "1.01.0038",
+   "on_hand": 536,
+   "reserved": 59,
+   "active": true
+  },
+  {
+   "sku": "1.01.0039",
+   "on_hand": 501,
+   "reserved": 119,
+   "active": true
+  },
+  {
+   "sku": "1.01.0040",
+   "on_hand": 242,
+   "reserved": 3,
+   "active": true
+  },
+  {
+   "sku": "1.02.0001",
+   "on_hand": 11,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "1.02.0002",
+   "on_hand": 413,
+   "reserved": 95,
+   "active": true
+  },
+  {
+   "sku": "1.02.0003",
+   "on_hand": 236,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "1.02.0004",
+   "on_hand": 191,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "1.02.0005",
+   "on_hand": 246,
+   "reserved": 20,
+   "active": true
+  },
+  {
+   "sku": "1.02.0006",
+   "on_hand": 328,
+   "reserved": 26,
+   "active": true
+  },
+  {
+   "sku": "1.02.0007",
+   "on_hand": 372,
+   "reserved": 81,
+   "active": true
+  },
+  {
+   "sku": "1.02.0008",
+   "on_hand": 588,
+   "reserved": 14,
+   "active": true
+  },
+  {
+   "sku": "1.02.0009",
+   "on_hand": 406,
+   "reserved": 74,
+   "active": true
+  },
+  {
+   "sku": "1.02.0010",
+   "on_hand": 310,
+   "reserved": 48,
+   "active": true
+  },
+  {
+   "sku": "1.02.0011",
+   "on_hand": 441,
+   "reserved": 92,
+   "active": true
+  },
+  {
+   "sku": "1.02.0012",
+   "on_hand": 127,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "1.02.0013",
+   "on_hand": 313,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "1.02.0014",
+   "on_hand": 565,
+   "reserved": 10,
+   "active": true
+  },
+  {
+   "sku": "1.02.0015",
+   "on_hand": 74,
+   "reserved": 16,
+   "active": true
+  },
+  {
+   "sku": "1.02.0016",
+   "on_hand": 115,
+   "reserved": 20,
+   "active": true
+  },
+  {
+   "sku": "1.03.0001",
+   "on_hand": 514,
+   "reserved": 98,
+   "active": true
+  },
+  {
+   "sku": "1.03.0002",
+   "on_hand": 81,
+   "reserved": 19,
+   "active": true
+  },
+  {
+   "sku": "1.03.0003",
+   "on_hand": 599,
+   "reserved": 108,
+   "active": true
+  },
+  {
+   "sku": "1.03.0004",
+   "on_hand": 573,
+   "reserved": 0,
+   "active": false
+  },
+  {
+   "sku": "1.03.0005",
+   "on_hand": 108,
+   "reserved": 18,
+   "active": false
+  },
+  {
+   "sku": "1.03.0006",
+   "on_hand": 428,
+   "reserved": 83,
+   "active": true
+  },
+  {
+   "sku": "1.03.0007",
+   "on_hand": 482,
+   "reserved": 81,
+   "active": true
+  },
+  {
+   "sku": "1.03.0008",
+   "on_hand": 248,
+   "reserved": 32,
+   "active": true
+  },
+  {
+   "sku": "1.03.0009",
+   "on_hand": 326,
+   "reserved": 8,
+   "active": true
+  },
+  {
+   "sku": "1.03.0010",
+   "on_hand": 356,
+   "reserved": 81,
+   "active": true
+  },
+  {
+   "sku": "1.03.0011",
+   "on_hand": 48,
+   "reserved": 5,
+   "active": true
+  },
+  {
+   "sku": "1.03.0012",
+   "on_hand": 272,
+   "reserved": 4,
+   "active": true
+  },
+  {
+   "sku": "1.03.0013",
+   "on_hand": 208,
+   "reserved": 6,
+   "active": true
+  },
+  {
+   "sku": "1.03.0014",
+   "on_hand": 478,
+   "reserved": 28,
+   "active": true
+  },
+  {
+   "sku": "1.03.0015",
+   "on_hand": 365,
+   "reserved": 17,
+   "active": true
+  },
+  {
+   "sku": "1.03.0016",
+   "on_hand": 47,
+   "reserved": 8,
+   "active": true
+  },
+  {
+   "sku": "1.03.0017",
+   "on_hand": 207,
+   "reserved": 31,
+   "active": true
+  },
+  {
+   "sku": "1.03.0018",
+   "on_hand": 248,
+   "reserved": 45,
+   "active": true
+  },
+  {
+   "sku": "1.03.0019",
+   "on_hand": 259,
+   "reserved": 10,
+   "active": true
+  },
+  {
+   "sku": "1.03.0020",
+   "on_hand": 534,
+   "reserved": 104,
+   "active": true
+  },
+  {
+   "sku": "1.03.0021",
+   "on_hand": 277,
+   "reserved": 64,
+   "active": true
+  },
+  {
+   "sku": "1.03.0022",
+   "on_hand": 365,
+   "reserved": 57,
+   "active": true
+  },
+  {
+   "sku": "1.03.0023",
+   "on_hand": 109,
+   "reserved": 11,
+   "active": true
+  },
+  {
+   "sku": "1.03.0024",
+   "on_hand": 505,
+   "reserved": 44,
+   "active": true
+  },
+  {
+   "sku": "2.01.0001",
+   "on_hand": 4,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "2.01.0002",
+   "on_hand": 58,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "2.01.0003",
+   "on_hand": 56,
+   "reserved": 9,
+   "active": true
+  },
+  {
+   "sku": "2.01.0004",
+   "on_hand": 40,
+   "reserved": 10,
+   "active": true
+  },
+  {
+   "sku": "2.01.0005",
+   "on_hand": 10,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "2.01.0006",
+   "on_hand": 19,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "2.01.0007",
+   "on_hand": 1,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "2.01.0008",
+   "on_hand": 48,
+   "reserved": 4,
+   "active": true
+  },
+  {
+   "sku": "2.01.0009",
+   "on_hand": 3,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "2.01.0010",
+   "on_hand": 32,
+   "reserved": 6,
+   "active": true
+  },
+  {
+   "sku": "2.01.0011",
+   "on_hand": 40,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "2.01.0012",
+   "on_hand": 3,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "2.01.0013",
+   "on_hand": 24,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "2.01.0014",
+   "on_hand": 46,
+   "reserved": 3,
+   "active": true
+  },
+  {
+   "sku": "2.01.0015",
+   "on_hand": 15,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "2.02.0001",
+   "on_hand": 26,
+   "reserved": 5,
+   "active": true
+  },
+  {
+   "sku": "2.02.0002",
+   "on_hand": 37,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "2.02.0003",
+   "on_hand": 14,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "2.02.0004",
+   "on_hand": 50,
+   "reserved": 12,
+   "active": true
+  },
+  {
+   "sku": "2.02.0005",
+   "on_hand": 46,
+   "reserved": 7,
+   "active": true
+  },
+  {
+   "sku": "2.02.0006",
+   "on_hand": 25,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "3.01.0001",
+   "on_hand": 17,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "3.01.0002",
+   "on_hand": 40,
+   "reserved": 3,
+   "active": true
+  },
+  {
+   "sku": "3.01.0003",
+   "on_hand": 24,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "3.01.0004",
+   "on_hand": 56,
+   "reserved": 5,
+   "active": true
+  },
+  {
+   "sku": "3.01.0005",
+   "on_hand": 68,
+   "reserved": 9,
+   "active": true
+  },
+  {
+   "sku": "3.01.0006",
+   "on_hand": 28,
+   "reserved": 4,
+   "active": true
+  },
+  {
+   "sku": "3.01.0007",
+   "on_hand": 46,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "3.01.0008",
+   "on_hand": 54,
+   "reserved": 3,
+   "active": true
+  },
+  {
+   "sku": "3.01.0009",
+   "on_hand": 68,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "3.01.0010",
+   "on_hand": 28,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "3.01.0011",
+   "on_hand": 20,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "3.01.0012",
+   "on_hand": 79,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "3.01.0013",
+   "on_hand": 7,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "3.01.0014",
+   "on_hand": 53,
+   "reserved": 7,
+   "active": true
+  },
+  {
+   "sku": "3.01.0015",
+   "on_hand": 43,
+   "reserved": 3,
+   "active": true
+  },
+  {
+   "sku": "3.01.0016",
+   "on_hand": 67,
+   "reserved": 9,
+   "active": true
+  },
+  {
+   "sku": "3.01.0017",
+   "on_hand": 14,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "3.01.0018",
+   "on_hand": 37,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "3.01.0019",
+   "on_hand": 28,
+   "reserved": 7,
+   "active": true
+  },
+  {
+   "sku": "3.01.0020",
+   "on_hand": 52,
+   "reserved": 7,
+   "active": true
+  },
+  {
+   "sku": "3.01.0021",
+   "on_hand": 7,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "3.01.0022",
+   "on_hand": 7,
+   "reserved": 0,
+   "active": false
+  },
+  {
+   "sku": "3.01.0023",
+   "on_hand": 34,
+   "reserved": 6,
+   "active": true
+  },
+  {
+   "sku": "3.01.0024",
+   "on_hand": 16,
+   "reserved": 3,
+   "active": true
+  },
+  {
+   "sku": "3.01.0025",
+   "on_hand": 39,
+   "reserved": 7,
+   "active": true
+  },
+  {
+   "sku": "3.01.0026",
+   "on_hand": 53,
+   "reserved": 11,
+   "active": true
+  },
+  {
+   "sku": "3.01.0027",
+   "on_hand": 50,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "3.01.0028",
+   "on_hand": 44,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "3.01.0029",
+   "on_hand": 47,
+   "reserved": 11,
+   "active": true
+  },
+  {
+   "sku": "3.01.0030",
+   "on_hand": 78,
+   "reserved": 15,
+   "active": true
+  },
+  {
+   "sku": "3.01.0031",
+   "on_hand": 0,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "3.01.0032",
+   "on_hand": 61,
+   "reserved": 13,
+   "active": true
+  },
+  {
+   "sku": "3.01.0033",
+   "on_hand": 50,
+   "reserved": 11,
+   "active": true
+  },
+  {
+   "sku": "3.01.0034",
+   "on_hand": 71,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "3.01.0035",
+   "on_hand": 13,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "3.01.0036",
+   "on_hand": 76,
+   "reserved": 6,
+   "active": true
+  },
+  {
+   "sku": "4.01.0001",
+   "on_hand": 100,
+   "reserved": 6,
+   "active": true
+  },
+  {
+   "sku": "4.01.0002",
+   "on_hand": 524,
+   "reserved": 82,
+   "active": true
+  },
+  {
+   "sku": "4.01.0003",
+   "on_hand": 311,
+   "reserved": 70,
+   "active": true
+  },
+  {
+   "sku": "4.01.0004",
+   "on_hand": 270,
+   "reserved": 42,
+   "active": true
+  },
+  {
+   "sku": "4.01.0005",
+   "on_hand": 381,
+   "reserved": 88,
+   "active": true
+  },
+  {
+   "sku": "4.01.0006",
+   "on_hand": 410,
+   "reserved": 13,
+   "active": true
+  },
+  {
+   "sku": "4.01.0007",
+   "on_hand": 380,
+   "reserved": 51,
+   "active": true
+  },
+  {
+   "sku": "4.01.0008",
+   "on_hand": 95,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "4.01.0009",
+   "on_hand": 192,
+   "reserved": 22,
+   "active": true
+  },
+  {
+   "sku": "4.01.0010",
+   "on_hand": 182,
+   "reserved": 19,
+   "active": true
+  },
+  {
+   "sku": "4.01.0011",
+   "on_hand": 267,
+   "reserved": 41,
+   "active": true
+  },
+  {
+   "sku": "4.01.0012",
+   "on_hand": 500,
+   "reserved": 116,
+   "active": true
+  },
+  {
+   "sku": "4.01.0013",
+   "on_hand": 394,
+   "reserved": 45,
+   "active": true
+  },
+  {
+   "sku": "4.01.0014",
+   "on_hand": 544,
+   "reserved": 11,
+   "active": true
+  },
+  {
+   "sku": "4.01.0015",
+   "on_hand": 391,
+   "reserved": 66,
+   "active": true
+  },
+  {
+   "sku": "4.01.0016",
+   "on_hand": 495,
+   "reserved": 95,
+   "active": true
+  },
+  {
+   "sku": "4.02.0001",
+   "on_hand": 56,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "4.02.0002",
+   "on_hand": 9,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "4.02.0003",
+   "on_hand": 5,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "4.02.0004",
+   "on_hand": 17,
+   "reserved": 3,
+   "active": true
+  },
+  {
+   "sku": "4.02.0005",
+   "on_hand": 17,
+   "reserved": 3,
+   "active": true
+  },
+  {
+   "sku": "4.02.0006",
+   "on_hand": 26,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "4.02.0007",
+   "on_hand": 34,
+   "reserved": 3,
+   "active": true
+  },
+  {
+   "sku": "4.02.0008",
+   "on_hand": 24,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "4.02.0009",
+   "on_hand": 55,
+   "reserved": 11,
+   "active": true
+  },
+  {
+   "sku": "4.02.0010",
+   "on_hand": 58,
+   "reserved": 7,
+   "active": true
+  },
+  {
+   "sku": "4.03.0001",
+   "on_hand": 53,
+   "reserved": 3,
+   "active": true
+  },
+  {
+   "sku": "4.03.0002",
+   "on_hand": 20,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "4.03.0003",
+   "on_hand": 79,
+   "reserved": 15,
+   "active": true
+  },
+  {
+   "sku": "4.03.0004",
+   "on_hand": 61,
+   "reserved": 3,
+   "active": true
+  },
+  {
+   "sku": "4.03.0005",
+   "on_hand": 65,
+   "reserved": 14,
+   "active": true
+  },
+  {
+   "sku": "4.03.0006",
+   "on_hand": 14,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "5.01.0001",
+   "on_hand": 1,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "5.01.0002",
+   "on_hand": 9,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "5.01.0003",
+   "on_hand": 16,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "5.01.0004",
+   "on_hand": 0,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "5.01.0005",
+   "on_hand": 5,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "5.01.0006",
+   "on_hand": 12,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "5.01.0007",
+   "on_hand": 11,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "5.01.0008",
+   "on_hand": 19,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "5.01.0009",
+   "on_hand": 1,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "5.01.0010",
+   "on_hand": 9,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "5.01.0011",
+   "on_hand": 4,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "5.01.0012",
+   "on_hand": 5,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "5.01.0013",
+   "on_hand": 16,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "5.01.0014",
+   "on_hand": 17,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "5.01.0015",
+   "on_hand": 1,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "5.01.0016",
+   "on_hand": 6,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "5.02.0001",
+   "on_hand": 12,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "5.02.0002",
+   "on_hand": 20,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "5.02.0003",
+   "on_hand": 13,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "5.02.0004",
+   "on_hand": 6,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "5.02.0005",
+   "on_hand": 11,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "5.02.0006",
+   "on_hand": 1,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "5.02.0007",
+   "on_hand": 11,
+   "reserved": 1,
+   "active": false
+  },
+  {
+   "sku": "5.02.0008",
+   "on_hand": 12,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "6.01.0001",
+   "on_hand": 187,
+   "reserved": 6,
+   "active": true
+  },
+  {
+   "sku": "6.01.0002",
+   "on_hand": 464,
+   "reserved": 50,
+   "active": true
+  },
+  {
+   "sku": "6.01.0003",
+   "on_hand": 121,
+   "reserved": 9,
+   "active": true
+  },
+  {
+   "sku": "6.01.0004",
+   "on_hand": 102,
+   "reserved": 12,
+   "active": true
+  },
+  {
+   "sku": "6.01.0005",
+   "on_hand": 511,
+   "reserved": 9,
+   "active": true
+  },
+  {
+   "sku": "6.01.0006",
+   "on_hand": 367,
+   "reserved": 85,
+   "active": true
+  },
+  {
+   "sku": "6.01.0007",
+   "on_hand": 386,
+   "reserved": 87,
+   "active": true
+  },
+  {
+   "sku": "6.01.0008",
+   "on_hand": 131,
+   "reserved": 23,
+   "active": true
+  },
+  {
+   "sku": "6.01.0009",
+   "on_hand": 388,
+   "reserved": 79,
+   "active": true
+  },
+  {
+   "sku": "6.01.0010",
+   "on_hand": 76,
+   "reserved": 19,
+   "active": true
+  },
+  {
+   "sku": "6.01.0011",
+   "on_hand": 88,
+   "reserved": 6,
+   "active": true
+  },
+  {
+   "sku": "6.01.0012",
+   "on_hand": 183,
+   "reserved": 8,
+   "active": true
+  },
+  {
+   "sku": "6.01.0013",
+   "on_hand": 171,
+   "reserved": 5,
+   "active": true
+  },
+  {
+   "sku": "6.01.0014",
+   "on_hand": 225,
+   "reserved": 26,
+   "active": true
+  },
+  {
+   "sku": "6.01.0015",
+   "on_hand": 582,
+   "reserved": 78,
+   "active": true
+  },
+  {
+   "sku": "6.01.0016",
+   "on_hand": 130,
+   "reserved": 22,
+   "active": true
+  },
+  {
+   "sku": "6.01.0017",
+   "on_hand": 271,
+   "reserved": 47,
+   "active": true
+  },
+  {
+   "sku": "6.01.0018",
+   "on_hand": 487,
+   "reserved": 58,
+   "active": true
+  },
+  {
+   "sku": "6.01.0019",
+   "on_hand": 500,
+   "reserved": 110,
+   "active": true
+  },
+  {
+   "sku": "6.01.0020",
+   "on_hand": 303,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "6.01.0021",
+   "on_hand": 395,
+   "reserved": 37,
+   "active": true
+  },
+  {
+   "sku": "6.01.0022",
+   "on_hand": 499,
+   "reserved": 82,
+   "active": true
+  },
+  {
+   "sku": "6.02.0001",
+   "on_hand": 19,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "6.02.0002",
+   "on_hand": 17,
+   "reserved": 4,
+   "active": true
+  },
+  {
+   "sku": "6.02.0003",
+   "on_hand": 42,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "6.02.0004",
+   "on_hand": 39,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "6.02.0005",
+   "on_hand": 76,
+   "reserved": 17,
+   "active": true
+  },
+  {
+   "sku": "6.02.0006",
+   "on_hand": 77,
+   "reserved": 14,
+   "active": true
+  },
+  {
+   "sku": "6.02.0007",
+   "on_hand": 46,
+   "reserved": 6,
+   "active": true
+  },
+  {
+   "sku": "6.02.0008",
+   "on_hand": 71,
+   "reserved": 12,
+   "active": true
+  },
+  {
+   "sku": "6.02.0009",
+   "on_hand": 4,
+   "reserved": 0,
+   "active": false
+  },
+  {
+   "sku": "6.02.0010",
+   "on_hand": 21,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "6.02.0011",
+   "on_hand": 71,
+   "reserved": 8,
+   "active": true
+  },
+  {
+   "sku": "6.02.0012",
+   "on_hand": 30,
+   "reserved": 3,
+   "active": true
+  },
+  {
+   "sku": "6.02.0013",
+   "on_hand": 47,
+   "reserved": 10,
+   "active": true
+  },
+  {
+   "sku": "6.02.0014",
+   "on_hand": 61,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "6.02.0015",
+   "on_hand": 4,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "6.02.0016",
+   "on_hand": 2,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "7.01.0001",
+   "on_hand": 26,
+   "reserved": 4,
+   "active": true
+  },
+  {
+   "sku": "7.01.0002",
+   "on_hand": 11,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "7.01.0003",
+   "on_hand": 28,
+   "reserved": 7,
+   "active": true
+  },
+  {
+   "sku": "7.01.0004",
+   "on_hand": 63,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "7.01.0005",
+   "on_hand": 67,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "7.01.0006",
+   "on_hand": 33,
+   "reserved": 5,
+   "active": true
+  },
+  {
+   "sku": "7.01.0007",
+   "on_hand": 80,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "7.01.0008",
+   "on_hand": 26,
+   "reserved": 6,
+   "active": true
+  },
+  {
+   "sku": "7.01.0009",
+   "on_hand": 44,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "7.01.0010",
+   "on_hand": 38,
+   "reserved": 6,
+   "active": true
+  },
+  {
+   "sku": "7.01.0011",
+   "on_hand": 25,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "7.01.0012",
+   "on_hand": 75,
+   "reserved": 6,
+   "active": true
+  },
+  {
+   "sku": "7.02.0001",
+   "on_hand": 7,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "7.02.0002",
+   "on_hand": 49,
+   "reserved": 4,
+   "active": true
+  },
+  {
+   "sku": "7.02.0003",
+   "on_hand": 2,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "7.02.0004",
+   "on_hand": 78,
+   "reserved": 18,
+   "active": true
+  },
+  {
+   "sku": "7.02.0005",
+   "on_hand": 73,
+   "reserved": 17,
+   "active": true
+  },
+  {
+   "sku": "7.02.0006",
+   "on_hand": 75,
+   "reserved": 16,
+   "active": true
+  },
+  {
+   "sku": "8.01.0001",
+   "on_hand": 304,
+   "reserved": 37,
+   "active": true
+  },
+  {
+   "sku": "8.01.0002",
+   "on_hand": 536,
+   "reserved": 128,
+   "active": true
+  },
+  {
+   "sku": "8.01.0003",
+   "on_hand": 111,
+   "reserved": 24,
+   "active": true
+  },
+  {
+   "sku": "8.01.0004",
+   "on_hand": 500,
+   "reserved": 8,
+   "active": true
+  },
+  {
+   "sku": "8.01.0005",
+   "on_hand": 458,
+   "reserved": 36,
+   "active": true
+  },
+  {
+   "sku": "8.01.0006",
+   "on_hand": 117,
+   "reserved": 15,
+   "active": true
+  },
+  {
+   "sku": "8.01.0007",
+   "on_hand": 135,
+   "reserved": 23,
+   "active": true
+  },
+  {
+   "sku": "8.01.0008",
+   "on_hand": 90,
+   "reserved": 16,
+   "active": false
+  },
+  {
+   "sku": "8.02.0001",
+   "on_hand": 181,
+   "reserved": 26,
+   "active": true
+  },
+  {
+   "sku": "8.02.0002",
+   "on_hand": 281,
+   "reserved": 42,
+   "active": true
+  },
+  {
+   "sku": "8.02.0003",
+   "on_hand": 499,
+   "reserved": 88,
+   "active": true
+  },
+  {
+   "sku": "8.02.0004",
+   "on_hand": 414,
+   "reserved": 100,
+   "active": true
+  },
+  {
+   "sku": "8.02.0005",
+   "on_hand": 105,
+   "reserved": 16,
+   "active": true
+  },
+  {
+   "sku": "8.02.0006",
+   "on_hand": 161,
+   "reserved": 25,
+   "active": true
+  },
+  {
+   "sku": "8.02.0007",
+   "on_hand": 348,
+   "reserved": 83,
+   "active": true
+  },
+  {
+   "sku": "8.02.0008",
+   "on_hand": 324,
+   "reserved": 76,
+   "active": true
+  },
+  {
+   "sku": "8.03.0001",
+   "on_hand": 490,
+   "reserved": 35,
+   "active": true
+  },
+  {
+   "sku": "8.03.0002",
+   "on_hand": 349,
+   "reserved": 87,
+   "active": true
+  },
+  {
+   "sku": "8.03.0003",
+   "on_hand": 37,
+   "reserved": 4,
+   "active": true
+  },
+  {
+   "sku": "8.03.0004",
+   "on_hand": 255,
+   "reserved": 33,
+   "active": true
+  },
+  {
+   "sku": "8.04.0001",
+   "on_hand": 372,
+   "reserved": 4,
+   "active": true
+  },
+  {
+   "sku": "8.04.0002",
+   "on_hand": 167,
+   "reserved": 2,
+   "active": true
+  },
+  {
+   "sku": "8.04.0003",
+   "on_hand": 92,
+   "reserved": 12,
+   "active": true
+  },
+  {
+   "sku": "8.04.0004",
+   "on_hand": 292,
+   "reserved": 57,
+   "active": true
+  },
+  {
+   "sku": "8.04.0005",
+   "on_hand": 164,
+   "reserved": 31,
+   "active": false
+  },
+  {
+   "sku": "8.05.0001",
+   "on_hand": 14,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "8.05.0002",
+   "on_hand": 76,
+   "reserved": 9,
+   "active": true
+  },
+  {
+   "sku": "8.05.0003",
+   "on_hand": 9,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "8.05.0004",
+   "on_hand": 44,
+   "reserved": 6,
+   "active": true
+  },
+  {
+   "sku": "8.05.0005",
+   "on_hand": 4,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "9.01.0001",
+   "on_hand": 424,
+   "reserved": 10,
+   "active": true
+  },
+  {
+   "sku": "9.01.0002",
+   "on_hand": 290,
+   "reserved": 63,
+   "active": true
+  },
+  {
+   "sku": "9.01.0003",
+   "on_hand": 88,
+   "reserved": 9,
+   "active": true
+  },
+  {
+   "sku": "9.01.0004",
+   "on_hand": 278,
+   "reserved": 30,
+   "active": true
+  },
+  {
+   "sku": "9.01.0005",
+   "on_hand": 544,
+   "reserved": 97,
+   "active": true
+  },
+  {
+   "sku": "9.01.0006",
+   "on_hand": 149,
+   "reserved": 12,
+   "active": true
+  },
+  {
+   "sku": "9.01.0007",
+   "on_hand": 136,
+   "reserved": 10,
+   "active": false
+  },
+  {
+   "sku": "9.01.0008",
+   "on_hand": 565,
+   "reserved": 139,
+   "active": true
+  },
+  {
+   "sku": "9.01.0009",
+   "on_hand": 551,
+   "reserved": 58,
+   "active": true
+  },
+  {
+   "sku": "9.01.0010",
+   "on_hand": 64,
+   "reserved": 7,
+   "active": true
+  },
+  {
+   "sku": "9.01.0011",
+   "on_hand": 569,
+   "reserved": 8,
+   "active": true
+  },
+  {
+   "sku": "9.01.0012",
+   "on_hand": 422,
+   "reserved": 31,
+   "active": true
+  },
+  {
+   "sku": "9.02.0001",
+   "on_hand": 329,
+   "reserved": 34,
+   "active": true
+  },
+  {
+   "sku": "9.02.0002",
+   "on_hand": 75,
+   "reserved": 17,
+   "active": true
+  },
+  {
+   "sku": "9.02.0003",
+   "on_hand": 326,
+   "reserved": 66,
+   "active": true
+  },
+  {
+   "sku": "9.02.0004",
+   "on_hand": 6,
+   "reserved": 1,
+   "active": true
+  },
+  {
+   "sku": "9.02.0005",
+   "on_hand": 380,
+   "reserved": 31,
+   "active": true
+  },
+  {
+   "sku": "9.02.0006",
+   "on_hand": 571,
+   "reserved": 108,
+   "active": true
+  },
+  {
+   "sku": "9.02.0007",
+   "on_hand": 15,
+   "reserved": 0,
+   "active": true
+  },
+  {
+   "sku": "9.02.0008",
+   "on_hand": 556,
+   "reserved": 25,
+   "active": true
+  },
+  {
+   "sku": "9.02.0009",
+   "on_hand": 83,
+   "reserved": 20,
+   "active": true
+  }
+ ],
+ "orders": [
+  {
+   "customer_id": "C001",
+   "cust_po": "HL-PO-261008-03",
+   "order_date": "2026-10-08",
+   "delivery_date": "2026-10-22",
+   "status": "已开票",
+   "remark": "随货附送货单",
+   "lines": [
+    {
+     "sku": "8.04.0002",
+     "qty": 6,
+     "unit_price": 6.0
+    },
+    {
+     "sku": "1.03.0010",
+     "qty": 12,
+     "unit_price": 18.6
+    },
+    {
+     "sku": "2.01.0004",
+     "qty": 3,
+     "unit_price": 211.9
+    },
+    {
+     "sku": "3.01.0023",
+     "qty": 1,
+     "unit_price": 138.0
+    }
+   ],
+   "order_no": "XS26100001",
+   "invoice": {
+    "invoice_no": "FP261000001",
+    "issue_date": "2026-10-18",
+    "amount": 1032.9
+   }
+  },
+  {
+   "customer_id": "C004",
+   "cust_po": "CL-PO-20261008",
+   "order_date": "2026-10-08",
+   "delivery_date": "2026-10-22",
+   "status": "已开票",
+   "remark": "客户自提",
+   "lines": [
+    {
+     "sku": "9.02.0009",
+     "qty": 20,
+     "unit_price": 1.1
+    },
+    {
+     "sku": "1.03.0013",
+     "qty": 20,
+     "unit_price": 20.8
+    },
+    {
+     "sku": "4.01.0004",
+     "qty": 12,
+     "unit_price": 188.0
+    },
+    {
+     "sku": "3.01.0022",
+     "qty": 2,
+     "unit_price": 119.0
+    }
+   ],
+   "order_no": "XS26100002",
+   "invoice": {
+    "invoice_no": "FP261000002",
+    "issue_date": "2026-10-16",
+    "amount": 2932.0
+   }
+  },
+  {
+   "customer_id": "C005",
+   "cust_po": "BCQ-261008",
+   "order_date": "2026-10-08",
+   "delivery_date": "2026-10-15",
+   "status": "已开票",
+   "remark": "",
+   "lines": [
+    {
+     "sku": "1.01.0024",
+     "qty": 12,
+     "unit_price": 5.0
+    },
+    {
+     "sku": "2.02.0004",
+     "qty": 10,
+     "unit_price": 629.0
+    },
+    {
+     "sku": "3.01.0005",
+     "qty": 5,
+     "unit_price": 59.0
+    }
+   ],
+   "order_no": "XS26100003",
+   "invoice": {
+    "invoice_no": "FP261000003",
+    "issue_date": "2026-10-15",
+    "amount": 6645.0
+   }
+  },
+  {
+   "customer_id": "C001",
+   "cust_po": "HL-PO-261012-01",
+   "order_date": "2026-10-12",
+   "delivery_date": "2026-10-26",
+   "status": "已开票",
+   "remark": "",
+   "lines": [
+    {
+     "sku": "1.02.0016",
+     "qty": 100,
+     "unit_price": 245.1
+    }
+   ],
+   "order_no": "XS26100004",
+   "invoice": {
+    "invoice_no": "FP261000004",
+    "issue_date": "2026-10-20",
+    "amount": 24510.0
+   }
+  },
+  {
+   "customer_id": "C008",
+   "cust_po": "LX-2610-001",
+   "order_date": "2026-10-12",
+   "delivery_date": "2026-10-26",
+   "status": "已开票",
+   "remark": "月结",
+   "lines": [
+    {
+     "sku": "5.01.0007",
+     "qty": 10,
+     "unit_price": 1164.1
+    },
+    {
+     "sku": "1.01.0035",
+     "qty": 6,
+     "unit_price": 19.0
+    },
+    {
+     "sku": "6.02.0004",
+     "qty": 3,
+     "unit_price": 19.0
+    },
+    {
+     "sku": "4.02.0009",
+     "qty": 3,
+     "unit_price": 196.8
+    }
+   ],
+   "order_no": "XS26100005",
+   "invoice": {
+    "invoice_no": "FP261000005",
+    "issue_date": "2026-10-23",
+    "amount": 12402.4
+   }
+  },
+  {
+   "customer_id": "C001",
+   "cust_po": "HL-PO-261013-03",
+   "order_date": "2026-10-13",
+   "delivery_date": "2026-10-18",
+   "status": "已开票",
+   "remark": "电话下单",
+   "lines": [
+    {
+     "sku": "1.02.0014",
+     "qty": 20,
+     "unit_price": 195.3
+    },
+    {
+     "sku": "1.03.0010",
+     "qty": 10,
+     "unit_price": 18.6
+    }
+   ],
+   "order_no": "XS26100006",
+   "invoice": {
+    "invoice_no": "FP261000006",
+    "issue_date": "2026-10-25",
+    "amount": 4092.0
+   }
+  },
+  {
+   "customer_id": "C004",
+   "cust_po": "CL-PO-20261013",
+   "order_date": "2026-10-13",
+   "delivery_date": "2026-10-18",
+   "status": "已开票",
+   "remark": "客户自提",
+   "lines": [
+    {
+     "sku": "1.03.0010",
+     "qty": 20,
+     "unit_price": 18.2
+    }
+   ],
+   "order_no": "XS26100007",
+   "invoice": {
+    "invoice_no": "FP261000007",
+    "issue_date": "2026-10-22",
+    "amount": 364.0
+   }
+  },
+  {
+   "customer_id": "C001",
+   "cust_po": "HL-PO-261016-01",
+   "order_date": "2026-10-16",
+   "delivery_date": "2026-10-21",
+   "status": "已开票",
+   "remark": "随货附送货单",
+   "lines": [
+    {
+     "sku": "4.02.0005",
+     "qty": 2,
+     "unit_price": 150.7
+    }
+   ],
+   "order_no": "XS26100008",
+   "invoice": {
+    "invoice_no": "FP261000008",
+    "issue_date": "2026-10-28",
+    "amount": 301.4
+   }
+  },
+  {
+   "customer_id": "C002",
+   "cust_po": "YG-2610-0398",
+   "order_date": "2026-10-16",
+   "delivery_date": "2026-10-26",
+   "status": "已开票",
+   "remark": "客户自提",
+   "lines": [
+    {
+     "sku": "1.03.0004",
+     "qty": 10,
+     "unit_price": 11.5
+    },
+    {
+     "sku": "8.01.0002",
+     "qty": 50,
+     "unit_price": 160.6
+    },
+    {
+     "sku": "7.02.0001",
+     "qty": 10,
+     "unit_price": 24.2
+    },
+    {
+     "sku": "5.02.0006",
+     "qty": 5,
+     "unit_price": 1688.3
+    }
+   ],
+   "order_no": "XS26100009",
+   "invoice": {
+    "invoice_no": "FP261000009",
+    "issue_date": "2026-10-26",
+    "amount": 16828.5
+   }
+  },
+  {
+   "customer_id": "C004",
+   "cust_po": "CL-PO-20261019",
+   "order_date": "2026-10-19",
+   "delivery_date": "2026-11-02",
+   "status": "已开票",
+   "remark": "电话下单",
+   "lines": [
+    {
+     "sku": "1.01.0035",
+     "qty": 10,
+     "unit_price": 18.6
+    },
+    {
+     "sku": "2.01.0005",
+     "qty": 2,
+     "unit_price": 212.1
+    },
+    {
+     "sku": "6.01.0006",
+     "qty": 50,
+     "unit_price": 18.2
+    },
+    {
+     "sku": "1.03.0013",
+     "qty": 20,
+     "unit_price": 20.8
+    }
+   ],
+   "order_no": "XS26100010",
+   "invoice": {
+    "invoice_no": "FP261000010",
+    "issue_date": "2026-10-29",
+    "amount": 1936.2
+   }
+  },
+  {
+   "customer_id": "C007",
+   "cust_po": "SD-1019",
+   "order_date": "2026-10-19",
+   "delivery_date": "2026-10-24",
+   "status": "已开票",
+   "remark": "电话下单",
+   "lines": [
+    {
+     "sku": "1.02.0016",
+     "qty": 20,
+     "unit_price": 258.0
+    },
+    {
+     "sku": "2.01.0012",
+     "qty": 2,
+     "unit_price": 453.6
+    }
+   ],
+   "order_no": "XS26100011",
+   "invoice": {
+    "invoice_no": "FP261000011",
+    "issue_date": "2026-10-31",
+    "amount": 6067.2
+   }
+  },
+  {
+   "customer_id": "C001",
+   "cust_po": "HL-PO-261021-03",
+   "order_date": "2026-10-21",
+   "delivery_date": "2026-11-04",
+   "status": "已开票",
+   "remark": "客户自提",
+   "lines": [
+    {
+     "sku": "1.02.0014",
+     "qty": 10,
+     "unit_price": 195.3
+    },
+    {
+     "sku": "1.01.0027",
+     "qty": 12,
+     "unit_price": 10.0
+    },
+    {
+     "sku": "1.02.0013",
+     "qty": 10,
+     "unit_price": 194.8
+    },
+    {
+     "sku": "8.03.0003",
+     "qty": 20,
+     "unit_price": 12.2
+    }
+   ],
+   "order_no": "XS26100012",
+   "invoice": {
+    "invoice_no": "FP261100012",
+    "issue_date": "2026-11-01",
+    "amount": 4265.0
+   }
+  },
+  {
+   "customer_id": "C003",
+   "cust_po": "PRT-54383",
+   "order_date": "2026-10-21",
+   "delivery_date": "2026-10-28",
+   "status": "已开票",
+   "remark": "随货附送货单",
+   "lines": [
+    {
+     "sku": "5.02.0003",
+     "qty": 1,
+     "unit_price": 939.6
+    }
+   ],
+   "order_no": "XS26100013",
+   "invoice": {
+    "invoice_no": "FP261000013",
+    "issue_date": "2026-10-28",
+    "amount": 939.6
+   }
+  },
+  {
+   "customer_id": "C004",
+   "cust_po": "CL-PO-20261022",
+   "order_date": "2026-10-22",
+   "delivery_date": "2026-10-27",
+   "status": "已开票",
+   "remark": "",
+   "lines": [
+    {
+     "sku": "6.01.0006",
+     "qty": 20,
+     "unit_price": 18.2
+    }
+   ],
+   "order_no": "XS26100014",
+   "invoice": {
+    "invoice_no": "FP261100014",
+    "issue_date": "2026-11-02",
+    "amount": 364.0
+   }
+  },
+  {
+   "customer_id": "C001",
+   "cust_po": "HL-PO-261023-02",
+   "order_date": "2026-10-23",
+   "delivery_date": "2026-11-02",
+   "status": "已开票",
+   "remark": "",
+   "lines": [
+    {
+     "sku": "1.03.0013",
+     "qty": 12,
+     "unit_price": 21.3
+    },
+    {
+     "sku": "9.01.0003",
+     "qty": 10,
+     "unit_price": 69.5
+    }
+   ],
+   "order_no": "XS26100015",
+   "invoice": {
+    "invoice_no": "FP261000015",
+    "issue_date": "2026-10-30",
+    "amount": 950.6
+   }
+  },
+  {
+   "customer_id": "C004",
+   "cust_po": "CL-PO-20261027",
+   "order_date": "2026-10-27",
+   "delivery_date": "2026-11-01",
+   "status": "已发货",
+   "remark": "",
+   "lines": [
+    {
+     "sku": "1.03.0014",
+     "qty": 50,
+     "unit_price": 21.2
+    },
+    {
+     "sku": "1.03.0013",
+     "qty": 6,
+     "unit_price": 20.8
+    },
+    {
+     "sku": "4.01.0004",
+     "qty": 20,
+     "unit_price": 188.0
+    }
+   ],
+   "order_no": "XS26100016",
+   "invoice": null
+  },
+  {
+   "customer_id": "C003",
+   "cust_po": "PRT-54745",
+   "order_date": "2026-10-28",
+   "delivery_date": "2026-11-04",
+   "status": "已发货",
+   "remark": "",
+   "lines": [
+    {
+     "sku": "6.01.0008",
+     "qty": 100,
+     "unit_price": 19.7
+    },
+    {
+     "sku": "6.02.0002",
+     "qty": 10,
+     "unit_price": 18.5
+    },
+    {
+     "sku": "8.03.0003",
+     "qty": 6,
+     "unit_price": 12.3
+    },
+    {
+     "sku": "1.03.0020",
+     "qty": 6,
+     "unit_price": 29.9
+    }
+   ],
+   "order_no": "XS26100017",
+   "invoice": null
+  },
+  {
+   "customer_id": "C004",
+   "cust_po": "CL-PO-20261028",
+   "order_date": "2026-10-28",
+   "delivery_date": "2026-11-02",
+   "status": "已发货",
+   "remark": "电话下单",
+   "lines": [
+    {
+     "sku": "3.01.0022",
+     "qty": 1,
+     "unit_price": 119.0
+    }
+   ],
+   "order_no": "XS26100018",
+   "invoice": null
+  },
+  {
+   "customer_id": "C006",
+   "cust_po": "KMS-PO-7745",
+   "order_date": "2026-10-28",
+   "delivery_date": "2026-11-07",
+   "status": "已发货",
+   "remark": "月结",
+   "lines": [
+    {
+     "sku": "3.01.0001",
+     "qty": 2,
+     "unit_price": 27.0
+    },
+    {
+     "sku": "4.02.0003",
+     "qty": 5,
+     "unit_price": 120.4
+    },
+    {
+     "sku": "1.01.0038",
+     "qty": 50,
+     "unit_price": 18.5
+    }
+   ],
+   "order_no": "XS26100019",
+   "invoice": null
+  },
+  {
+   "customer_id": "C001",
+   "cust_po": "HL-PO-261029-02",
+   "order_date": "2026-10-29",
+   "delivery_date": "2026-11-05",
+   "status": "已发货",
+   "remark": "随货附送货单",
+   "lines": [
+    {
+     "sku": "8.03.0003",
+     "qty": 6,
+     "unit_price": 12.2
+    }
+   ],
+   "order_no": "XS26100020",
+   "invoice": null
+  },
+  {
+   "customer_id": "C003",
+   "cust_po": "PRT-54690",
+   "order_date": "2026-10-29",
+   "delivery_date": "2026-11-12",
+   "status": "已发货",
+   "remark": "",
+   "lines": [
+    {
+     "sku": "3.01.0016",
+     "qty": 1,
+     "unit_price": 86.0
+    }
+   ],
+   "order_no": "XS26100021",
+   "invoice": null
+  },
+  {
+   "customer_id": "C004",
+   "cust_po": "CL-PO-20261029",
+   "order_date": "2026-10-29",
+   "delivery_date": "2026-11-08",
+   "status": "已发货",
+   "remark": "",
+   "lines": [
+    {
+     "sku": "6.02.0001",
+     "qty": 2,
+     "unit_price": 5.5
+    },
+    {
+     "sku": "3.01.0032",
+     "qty": 1,
+     "unit_price": 173.0
+    }
+   ],
+   "order_no": "XS26100022",
+   "invoice": null
+  },
+  {
+   "customer_id": "C008",
+   "cust_po": "LX-2610-009",
+   "order_date": "2026-10-29",
+   "delivery_date": "2026-11-03",
+   "status": "已发货",
+   "remark": "客户自提",
+   "lines": [
+    {
+     "sku": "5.01.0007",
+     "qty": 5,
+     "unit_price": 1164.1
+    }
+   ],
+   "order_no": "XS26100023",
+   "invoice": null
+  },
+  {
+   "customer_id": "C001",
+   "cust_po": "HL-PO-261030-03",
+   "order_date": "2026-10-30",
+   "delivery_date": "2026-11-09",
+   "status": "已发货",
+   "remark": "",
+   "lines": [
+    {
+     "sku": "5.02.0005",
+     "qty": 2,
+     "unit_price": 1370.4
+    }
+   ],
+   "order_no": "XS26100024",
+   "invoice": null
+  },
+  {
+   "customer_id": "C006",
+   "cust_po": "KMS-PO-7704",
+   "order_date": "2026-10-30",
+   "delivery_date": "2026-11-04",
+   "status": "已发货",
+   "remark": "",
+   "lines": [
+    {
+     "sku": "1.03.0015",
+     "qty": 100,
+     "unit_price": 23.1
+    }
+   ],
+   "order_no": "XS26100025",
+   "invoice": null
+  },
+  {
+   "customer_id": "C007",
+   "cust_po": "SD-1030",
+   "order_date": "2026-10-30",
+   "delivery_date": "2026-11-04",
+   "status": "已发货",
+   "remark": "月结",
+   "lines": [
+    {
+     "sku": "1.02.0016",
+     "qty": 50,
+     "unit_price": 258.0
+    },
+    {
+     "sku": "7.01.0007",
+     "qty": 3,
+     "unit_price": 106.5
+    },
+    {
+     "sku": "7.02.0003",
+     "qty": 2,
+     "unit_price": 25.3
+    }
+   ],
+   "order_no": "XS26100026",
+   "invoice": null
+  },
+  {
+   "customer_id": "C004",
+   "cust_po": "CL-PO-20261102",
+   "order_date": "2026-11-02",
+   "delivery_date": "2026-11-12",
+   "status": "已发货",
+   "remark": "随货附送货单",
+   "lines": [
+    {
+     "sku": "3.01.0028",
+     "qty": 5,
+     "unit_price": 160.0
+    },
+    {
+     "sku": "1.03.0015",
+     "qty": 50,
+     "unit_price": 22.6
+    },
+    {
+     "sku": "5.01.0001",
+     "qty": 10,
+     "unit_price": 695.5
+    },
+    {
+     "sku": "4.01.0004",
+     "qty": 100,
+     "unit_price": 188.0
+    }
+   ],
+   "order_no": "XS26110001",
+   "invoice": null
+  },
+  {
+   "customer_id": "C001",
+   "cust_po": "HL-PO-261103-01",
+   "order_date": "2026-11-03",
+   "delivery_date": "2026-11-17",
+   "status": "已发货",
+   "remark": "",
+   "lines": [
+    {
+     "sku": "8.02.0006",
+     "qty": 50,
+     "unit_price": 19.5
+    }
+   ],
+   "order_no": "XS26110002",
+   "invoice": null
+  },
+  {
+   "customer_id": "C002",
+   "cust_po": "YG-2611-0383",
+   "order_date": "2026-11-03",
+   "delivery_date": "2026-11-08",
+   "status": "已发货",
+   "remark": "",
+   "lines": [
+    {
+     "sku": "7.01.0004",
+     "qty": 5,
+     "unit_price": 72.9
+    },
+    {
+     "sku": "1.02.0012",
+     "qty": 20,
+     "unit_price": 159.7
+    },
+    {
+     "sku": "1.01.0023",
+     "qty": 12,
+     "unit_price": 5.5
+    }
+   ],
+   "order_no": "XS26110003",
+   "invoice": null
+  },
+  {
+   "customer_id": "C001",
+   "cust_po": "HL-PO-261104-03",
+   "order_date": "2026-11-04",
+   "delivery_date": "2026-11-09",
+   "status": "已发货",
+   "remark": "客户自提",
+   "lines": [
+    {
+     "sku": "2.01.0005",
+     "qty": 3,
+     "unit_price": 216.7
+    },
+    {
+     "sku": "5.01.0010",
+     "qty": 2,
+     "unit_price": 1447.6
+    },
+    {
+     "sku": "8.05.0004",
+     "qty": 1,
+     "unit_price": 101.0
+    }
+   ],
+   "order_no": "XS26110004",
+   "invoice": null
+  },
+  {
+   "customer_id": "C002",
+   "cust_po": "YG-2611-0335",
+   "order_date": "2026-11-04",
+   "delivery_date": "2026-11-18",
+   "status": "已发货",
+   "remark": "",
+   "lines": [
+    {
+     "sku": "6.02.0010",
+     "qty": 2,
+     "unit_price": 27.0
+    },
+    {
+     "sku": "1.03.0017",
+     "qty": 12,
+     "unit_price": 26.9
+    }
+   ],
+   "order_no": "XS26110005",
+   "invoice": null
+  },
+  {
+   "customer_id": "C001",
+   "cust_po": "HL-PO-261105-01",
+   "order_date": "2026-11-05",
+   "delivery_date": "2026-11-15",
+   "status": "已发货",
+   "remark": "客户自提",
+   "lines": [
+    {
+     "sku": "1.01.0034",
+     "qty": 6,
+     "unit_price": 14.9
+    },
+    {
+     "sku": "4.01.0011",
+     "qty": 100,
+     "unit_price": 202.5
+    },
+    {
+     "sku": "2.01.0004",
+     "qty": 10,
+     "unit_price": 211.9
+    }
+   ],
+   "order_no": "XS26110006",
+   "invoice": null
+  },
+  {
+   "customer_id": "C004",
+   "cust_po": "CL-PO-20261105",
+   "order_date": "2026-11-05",
+   "delivery_date": "2026-11-10",
+   "status": "已发货",
+   "remark": "",
+   "lines": [
+    {
+     "sku": "1.03.0013",
+     "qty": 100,
+     "unit_price": 20.8
+    },
+    {
+     "sku": "1.01.0005",
+     "qty": 20,
+     "unit_price": 6.9
+    }
+   ],
+   "order_no": "XS26110007",
+   "invoice": null
+  },
+  {
+   "customer_id": "C005",
+   "cust_po": "BCQ-261105",
+   "order_date": "2026-11-05",
+   "delivery_date": "2026-11-15",
+   "status": "已发货",
+   "remark": "",
+   "lines": [
+    {
+     "sku": "4.02.0007",
+     "qty": 2,
+     "unit_price": 177.9
+    },
+    {
+     "sku": "1.01.0025",
+     "qty": 20,
+     "unit_price": 7.8
+    },
+    {
+     "sku": "3.01.0022",
+     "qty": 1,
+     "unit_price": 124.0
+    },
+    {
+     "sku": "1.01.0014",
+     "qty": 100,
+     "unit_price": 12.9
+    }
+   ],
+   "order_no": "XS26110008",
+   "invoice": null
+  },
+  {
+   "customer_id": "C007",
+   "cust_po": "SD-1105",
+   "order_date": "2026-11-05",
+   "delivery_date": "2026-11-19",
+   "status": "已发货",
+   "remark": "客户自提",
+   "lines": [
+    {
+     "sku": "4.01.0010",
+     "qty": 100,
+     "unit_price": 196.8
+    }
+   ],
+   "order_no": "XS26110009",
+   "invoice": null
+  },
+  {
+   "customer_id": "C003",
+   "cust_po": "PRT-54960",
+   "order_date": "2026-11-06",
+   "delivery_date": "2026-11-13",
+   "status": "已审核",
+   "remark": "",
+   "lines": [
+    {
+     "sku": "6.01.0003",
+     "qty": 20,
+     "unit_price": 17.4
+    },
+    {
+     "sku": "1.03.0004",
+     "qty": 10,
+     "unit_price": 11.7
+    }
+   ],
+   "order_no": "XS26110010",
+   "invoice": null
+  },
+  {
+   "customer_id": "C004",
+   "cust_po": "CL-PO-20261106A",
+   "order_date": "2026-11-06",
+   "delivery_date": "2026-11-16",
+   "status": "已审核",
+   "remark": "客户自提",
+   "lines": [
+    {
+     "sku": "1.01.0003",
+     "qty": 50,
+     "unit_price": 5.7
+    },
+    {
+     "sku": "5.01.0001",
+     "qty": 2,
+     "unit_price": 695.5
+    },
+    {
+     "sku": "1.02.0007",
+     "qty": 20,
+     "unit_price": 68.7
+    }
+   ],
+   "order_no": "XS26110011",
+   "invoice": null
+  },
+  {
+   "customer_id": "C005",
+   "cust_po": "BCQ-261106",
+   "order_date": "2026-11-06",
+   "delivery_date": "2026-11-16",
+   "status": "已审核",
+   "remark": "随货附送货单",
+   "lines": [
+    {
+     "sku": "5.02.0003",
+     "qty": 5,
+     "unit_price": 949.3
+    }
+   ],
+   "order_no": "XS26110012",
+   "invoice": null
+  },
+  {
+   "customer_id": "C006",
+   "cust_po": "KMS-PO-7750",
+   "order_date": "2026-11-09",
+   "delivery_date": "2026-11-14",
+   "status": "已审核",
+   "remark": "客户自提",
+   "lines": [
+    {
+     "sku": "3.01.0001",
+     "qty": 10,
+     "unit_price": 27.0
+    },
+    {
+     "sku": "1.03.0003",
+     "qty": 50,
+     "unit_price": 11.1
+    },
+    {
+     "sku": "9.01.0007",
+     "qty": 6,
+     "unit_price": 100.0
+    },
+    {
+     "sku": "1.02.0011",
+     "qty": 12,
+     "unit_price": 154.0
+    }
+   ],
+   "order_no": "XS26110013",
+   "invoice": null
+  },
+  {
+   "customer_id": "C001",
+   "cust_po": "HL-PO-261110-03",
+   "order_date": "2026-11-10",
+   "delivery_date": "2026-11-24",
+   "status": "已审核",
+   "remark": "客户自提",
+   "lines": [
+    {
+     "sku": "1.01.0034",
+     "qty": 50,
+     "unit_price": 14.9
+    },
+    {
+     "sku": "2.01.0005",
+     "qty": 1,
+     "unit_price": 216.7
+    },
+    {
+     "sku": "1.02.0006",
+     "qty": 10,
+     "unit_price": 56.9
+    },
+    {
+     "sku": "6.02.0010",
+     "qty": 5,
+     "unit_price": 27.0
+    }
+   ],
+   "order_no": "XS26110014",
+   "invoice": null
+  },
+  {
+   "customer_id": "C008",
+   "cust_po": "LX-2611-019",
+   "order_date": "2026-11-10",
+   "delivery_date": "2026-11-20",
+   "status": "草稿",
+   "remark": "客户自提",
+   "lines": [
+    {
+     "sku": "4.02.0001",
+     "qty": 3,
+     "unit_price": 99.0
+    }
+   ],
+   "order_no": "XS26110015",
+   "invoice": null
+  },
+  {
+   "customer_id": "C004",
+   "cust_po": "CL-PO-20261111",
+   "order_date": "2026-11-11",
+   "delivery_date": "2026-11-25",
+   "status": "草稿",
+   "remark": "",
+   "lines": [
+    {
+     "sku": "4.01.0015",
+     "qty": 10,
+     "unit_price": 215.8
+    },
+    {
+     "sku": "7.02.0002",
+     "qty": 3,
+     "unit_price": 24.8
+    },
+    {
+     "sku": "2.01.0010",
+     "qty": 3,
+     "unit_price": 434.4
+    }
+   ],
+   "order_no": "XS26110016",
+   "invoice": null
+  },
+  {
+   "customer_id": "C006",
+   "cust_po": "KMS-PO-7738",
+   "order_date": "2026-11-11",
+   "delivery_date": "2026-11-16",
+   "status": "已审核",
+   "remark": "随货附送货单",
+   "lines": [
+    {
+     "sku": "1.03.0011",
+     "qty": 100,
+     "unit_price": 20.1
+    },
+    {
+     "sku": "1.03.0005",
+     "qty": 6,
+     "unit_price": 12.3
+    },
+    {
+     "sku": "5.02.0003",
+     "qty": 1,
+     "unit_price": 929.8
+    },
+    {
+     "sku": "3.01.0026",
+     "qty": 5,
+     "unit_price": 127.0
+    }
+   ],
+   "order_no": "XS26110017",
+   "invoice": null
+  },
+  {
+   "customer_id": "C008",
+   "cust_po": "LX-2611-009",
+   "order_date": "2026-11-11",
+   "delivery_date": "2026-11-25",
+   "status": "已审核",
+   "remark": "",
+   "lines": [
+    {
+     "sku": "8.03.0003",
+     "qty": 50,
+     "unit_price": 12.2
+    },
+    {
+     "sku": "1.01.0035",
+     "qty": 6,
+     "unit_price": 19.0
+    },
+    {
+     "sku": "8.02.0008",
+     "qty": 20,
+     "unit_price": 20.4
+    },
+    {
+     "sku": "1.01.0021",
+     "qty": 6,
+     "unit_price": 20.8
+    }
+   ],
+   "order_no": "XS26110018",
+   "invoice": null
+  },
+  {
+   "customer_id": "C001",
+   "cust_po": "HL-PO-261113-01A",
+   "order_date": "2026-11-13",
+   "delivery_date": "2026-11-20",
+   "status": "草稿",
+   "remark": "客户自提",
+   "lines": [
+    {
+     "sku": "5.02.0005",
+     "qty": 5,
+     "unit_price": 1370.4
+    },
+    {
+     "sku": "4.02.0005",
+     "qty": 1,
+     "unit_price": 150.7
+    },
+    {
+     "sku": "8.05.0004",
+     "qty": 2,
+     "unit_price": 101.0
+    },
+    {
+     "sku": "1.03.0011",
+     "qty": 100,
+     "unit_price": 20.1
+    }
+   ],
+   "order_no": "XS26110019",
+   "invoice": null
+  },
+  {
+   "customer_id": "C002",
+   "cust_po": "YG-2611-0450",
+   "order_date": "2026-11-13",
+   "delivery_date": "2026-11-23",
+   "status": "已审核",
+   "remark": "月结",
+   "lines": [
+    {
+     "sku": "1.01.0011",
+     "qty": 20,
+     "unit_price": 12.3
+    },
+    {
+     "sku": "1.03.0017",
+     "qty": 50,
+     "unit_price": 26.9
+    }
+   ],
+   "order_no": "XS26110020",
+   "invoice": null
+  },
+  {
+   "customer_id": "C004",
+   "cust_po": "CL-PO-20261113",
+   "order_date": "2026-11-13",
+   "delivery_date": "2026-11-23",
+   "status": "草稿",
+   "remark": "客户自提",
+   "lines": [
+    {
+     "sku": "1.03.0015",
+     "qty": 12,
+     "unit_price": 22.6
+    },
+    {
+     "sku": "1.02.0007",
+     "qty": 6,
+     "unit_price": 68.7
+    },
+    {
+     "sku": "1.01.0028",
+     "qty": 20,
+     "unit_price": 8.8
+    }
+   ],
+   "order_no": "XS26110021",
+   "invoice": null
+  }
+ ]
+}

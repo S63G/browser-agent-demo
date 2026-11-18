@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "6a5f196f59f7728ac0231ae825fa045398ba96d3b1bb5ddc494afd3786130d63",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:35:26+00:00",
+   "usage": {
+    "prompt_tokens": 450,
+    "completion_tokens": 60,
+    "total_tokens": 510,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 23
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 322
+   },
+   "response": "{\"actions\":[{\"ref\":\"e3\",\"op\":\"click\"}],\"reason\":\"页面中“登录系统”按钮为 e3，点击它即可提交登录进入系统。\"}"
+  }
+ ]
+}

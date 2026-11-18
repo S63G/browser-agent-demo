@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "3699bd53d4568c19074b610f74711ae3ca9d3b5972ba70ace02a96c1b5c9c594",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:33:08+00:00",
+   "usage": {
+    "prompt_tokens": 900,
+    "completion_tokens": 31,
+    "total_tokens": 931,
+    "prompt_tokens_details": {
+     "cached_tokens": 766
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 766,
+    "prompt_cache_miss_tokens": 134
+   },
+   "response": "{\"actions\":[{\"ref\":\"e7\",\"op\":\"click\"}],\"reason\":\"“+ 新增一行”按钮用于增加一行商品明细。\"}"
+  }
+ ]
+}

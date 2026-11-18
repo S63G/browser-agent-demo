@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "5e4d82f2b83ec6805ace2146eb3450b816ad6b38814818c503fc096d06dc02a0",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:35:33+00:00",
+   "usage": {
+    "prompt_tokens": 602,
+    "completion_tokens": 210,
+    "total_tokens": 812,
+    "prompt_tokens_details": {
+     "cached_tokens": 256
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 137
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 346
+   },
+   "response": "{\"rows\":[{\"order_no\":\"XS26100019\",\"customer_po\":\"KMS-PO-7745\",\"customer\":\"Kestrelmoor Marine Supplies Pte Ltd\",\"order_date\":\"2026-10-28\",\"delivery_date\":\"2026-11-07\",\"amount\":1581.00,\"status\":\"已发货\"}]}"
+  }
+ ]
+}

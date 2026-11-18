@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "9767b0761afd98c67462ba3632007417663b88d6659ff7d415f1ed867daac77a",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:48+00:00",
+   "usage": {
+    "prompt_tokens": 2071,
+    "completion_tokens": 245,
+    "total_tokens": 2316,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 174
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1943
+   },
+   "response": "{\"actions\":[],\"reason\":\"明细表格当前只有 1、2、3 行（存货编码输入框为 e14、e17、e20），页面元素列表中不存在第 4 行的存货编码输入框，且新增行后才会生成的新元素 ref 未知，无法定位填写，故返回空数组。\"}"
+  }
+ ]
+}

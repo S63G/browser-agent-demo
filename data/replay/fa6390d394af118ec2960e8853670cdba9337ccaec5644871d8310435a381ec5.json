@@ -1,0 +1,42 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "fa6390d394af118ec2960e8853670cdba9337ccaec5644871d8310435a381ec5",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:38:10+00:00",
+   "usage": {
+    "prompt_tokens": 600,
+    "completion_tokens": 189,
+    "total_tokens": 789,
+    "prompt_tokens_details": {
+     "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 118
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 216
+   },
+   "response": "{\"rows\":[{\"order_no\":\"XS26110024\",\"customer_po\":\"HL-PO-261113-01\",\"customer\":\"沪东衡砺设备维修有限公司\",\"order_date\":\"2026-11-13\",\"delivery_date\":\"2026-11-23\",\"amount\":1211.50,\"status\":\"草稿\"}]}"
+  },
+  {
+   "recorded_at": "2026-11-18T08:38:16+00:00",
+   "usage": {
+    "prompt_tokens": 600,
+    "completion_tokens": 173,
+    "total_tokens": 773,
+    "prompt_tokens_details": {
+     "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 102
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 216
+   },
+   "response": "{\"rows\":[{\"order_no\":\"XS26110024\",\"customer_po\":\"HL-PO-261113-01\",\"customer\":\"沪东衡砺设备维修有限公司\",\"order_date\":\"2026-11-13\",\"delivery_date\":\"2026-11-23\",\"amount\":1211.50,\"status\":\"草稿\"}]}"
+  }
+ ]
+}

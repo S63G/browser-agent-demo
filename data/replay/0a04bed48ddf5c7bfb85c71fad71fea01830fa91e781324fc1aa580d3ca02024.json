@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "0a04bed48ddf5c7bfb85c71fad71fea01830fa91e781324fc1aa580d3ca02024",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:32:25+00:00",
+   "usage": {
+    "prompt_tokens": 684,
+    "completion_tokens": 48,
+    "total_tokens": 732,
+    "prompt_tokens_details": {
+     "cached_tokens": 512
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 17
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 172
+   },
+   "response": "{\"actions\":[],\"reason\":\"页面显示“尚未开票”，没有下载或打印发票的链接/按钮，因此返回空数组。\"}"
+  }
+ ]
+}

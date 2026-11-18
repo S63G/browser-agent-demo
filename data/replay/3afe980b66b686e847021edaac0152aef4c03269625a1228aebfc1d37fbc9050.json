@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "3afe980b66b686e847021edaac0152aef4c03269625a1228aebfc1d37fbc9050",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:32:52+00:00",
+   "usage": {
+    "prompt_tokens": 888,
+    "completion_tokens": 106,
+    "total_tokens": 994,
+    "prompt_tokens_details": {
+     "cached_tokens": 640
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 62
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 248
+   },
+   "response": "{\"actions\":[{\"ref\":\"e6\",\"op\":\"click\"}],\"reason\":\"页面底部有“继续 →”提交按钮（name=op），用于从基本信息进入下一步商品明细，点击它即可。\"}"
+  }
+ ]
+}

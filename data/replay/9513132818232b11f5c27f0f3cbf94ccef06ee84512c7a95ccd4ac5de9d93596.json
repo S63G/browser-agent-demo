@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "9513132818232b11f5c27f0f3cbf94ccef06ee84512c7a95ccd4ac5de9d93596",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:09+00:00",
+   "usage": {
+    "prompt_tokens": 748,
+    "completion_tokens": 40,
+    "total_tokens": 788,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 620
+   },
+   "response": "{\"actions\":[{\"ref\":\"e5\",\"op\":\"click\"}],\"reason\":\"页面显示已开票且有“打印发票”链接（e5），点击该链接即可打印发票。\"}"
+  }
+ ]
+}

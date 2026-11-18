@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "d2bd16a67ff3f1ffc551690a767444b8581510d1b5a9f8c536244ec30942464d",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:31:56+00:00",
+   "usage": {
+    "prompt_tokens": 465,
+    "completion_tokens": 33,
+    "total_tokens": 498,
+    "prompt_tokens_details": {
+     "cached_tokens": 256
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 209
+   },
+   "response": "{\"actions\":[{\"ref\":\"e4\",\"op\":\"click\"}],\"reason\":\"点击导航菜单中的“存货查询”链接，打开库存查询页面。\"}"
+  }
+ ]
+}

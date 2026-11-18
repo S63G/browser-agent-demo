@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "27dc7092869cf729d6acaf9aeb6d94882106879cd6c3506a452b7d7da6b5fe4f",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:05+00:00",
+   "usage": {
+    "prompt_tokens": 598,
+    "completion_tokens": 69,
+    "total_tokens": 667,
+    "prompt_tokens_details": {
+     "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 214
+   },
+   "response": "{\"rows\":[{\"order_no\":\"XS26100003\",\"customer_po\":\"BCQ-261008\",\"customer\":\"合肥北辰栖建安工程有限公司\",\"order_date\":\"2026-10-08\",\"delivery_date\":\"2026-10-15\",\"amount\":6645.00,\"status\":\"已开票\"}]}"
+  }
+ ]
+}

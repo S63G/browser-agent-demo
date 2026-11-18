@@ -1,0 +1,275 @@
+{
+ "config": "holdout_model",
+ "title": "hold-out v3 · 脚本 + 模型兜底",
+ "mode": "scripted+model(replay:deepseek/deepseek-flash)",
+ "llm_mode": "replay",
+ "model": "deepseek-flash",
+ "summary": {
+  "all": {
+   "tasks": 10,
+   "success": 10,
+   "mean_seconds": 7.8,
+   "median_seconds": 5.9,
+   "needs_human": 1,
+   "needs_human_unexpected": 0,
+   "model_steps": 83,
+   "model_calls": 99,
+   "tasks_using_model": 10
+  },
+  "by_layout": {
+   "v3": {
+    "tasks": 10,
+    "success": 10,
+    "mean_seconds": 7.8,
+    "median_seconds": 5.9,
+    "needs_human": 1,
+    "needs_human_unexpected": 0,
+    "model_steps": 83,
+    "model_calls": 99,
+    "tasks_using_model": 10
+   }
+  },
+  "duplicate_orders": 0,
+  "usage": {
+   "calls": 99,
+   "prompt_tokens": 128379,
+   "completion_tokens": 11133
+  }
+ },
+ "tasks": [
+  {
+   "id": "T11",
+   "layout": "v3",
+   "kind": "search_po",
+   "title": "按客户单号查单",
+   "success": true,
+   "problems": [],
+   "statuses": [
+    "ok"
+   ],
+   "seconds": 4.27,
+   "needs_human": false,
+   "expected_handover": false,
+   "model_steps": 7,
+   "model_calls": 8,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [],
+   "traces": [
+    "runs\\20261118-015729-053-search_order-c34a\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T12",
+   "layout": "v3",
+   "kind": "search_paged",
+   "title": "按客户 + 日期范围查单（结果跨两页）",
+   "success": true,
+   "problems": [],
+   "statuses": [
+    "ok"
+   ],
+   "seconds": 3.84,
+   "needs_human": false,
+   "expected_handover": false,
+   "model_steps": 6,
+   "model_calls": 7,
+   "cache_steps": 2,
+   "scripted_steps": 0,
+   "messages": [],
+   "traces": [
+    "runs\\20261118-015732-054-search_order-0aa4\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T13",
+   "layout": "v3",
+   "kind": "stock",
+   "title": "查 3 个料号的可用库存（含 1 个不存在的料号）",
+   "success": true,
+   "problems": [],
+   "statuses": [
+    "ok"
+   ],
+   "seconds": 3.99,
+   "needs_human": false,
+   "expected_handover": false,
+   "model_steps": 6,
+   "model_calls": 6,
+   "cache_steps": 4,
+   "scripted_steps": 0,
+   "messages": [],
+   "traces": [
+    "runs\\20261118-015736-055-check_stock-2372\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T14",
+   "layout": "v3",
+   "kind": "invoice",
+   "title": "下载已开票订单的发票 PDF",
+   "success": true,
+   "problems": [],
+   "statuses": [
+    "ok"
+   ],
+   "seconds": 3.51,
+   "needs_human": false,
+   "expected_handover": false,
+   "model_steps": 5,
+   "model_calls": 5,
+   "cache_steps": 2,
+   "scripted_steps": 0,
+   "messages": [],
+   "traces": [
+    "runs\\20261118-015740-056-download_invoice-8353\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T15",
+   "layout": "v3",
+   "kind": "invoice_none",
+   "title": "未开票订单：应如实返回“无发票”",
+   "success": true,
+   "problems": [],
+   "statuses": [
+    "no_invoice"
+   ],
+   "seconds": 3.31,
+   "needs_human": false,
+   "expected_handover": false,
+   "model_steps": 3,
+   "model_calls": 4,
+   "cache_steps": 3,
+   "scripted_steps": 0,
+   "messages": [
+    "该单据尚未开票"
+   ],
+   "traces": [
+    "runs\\20261118-015744-057-download_invoice-c666\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T16",
+   "layout": "v3",
+   "kind": "create_twice",
+   "title": "录入 Demo A 订单，再用同一幂等键调用一次",
+   "success": true,
+   "problems": [],
+   "statuses": [
+    "created",
+    "already_exists"
+   ],
+   "seconds": 12.05,
+   "needs_human": false,
+   "expected_handover": false,
+   "model_steps": 30,
+   "model_calls": 33,
+   "cache_steps": 7,
+   "scripted_steps": 0,
+   "messages": [
+    "已提交并在门户中核实",
+    "本地台账显示该订单已录入并核实过，没有再次操作门户"
+   ],
+   "traces": [
+    "runs\\20261118-015747-058-create_sales_order_draft-544e\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T17",
+   "layout": "v3",
+   "kind": "create_lines",
+   "title": "录入多行订单（含箱装物料）",
+   "success": true,
+   "problems": [],
+   "statuses": [
+    "created"
+   ],
+   "seconds": 10.14,
+   "needs_human": false,
+   "expected_handover": false,
+   "model_steps": 8,
+   "model_calls": 10,
+   "cache_steps": 25,
+   "scripted_steps": 0,
+   "messages": [
+    "已提交并在门户中核实"
+   ],
+   "traces": [
+    "runs\\20261118-015759-059-create_sales_order_draft-d0ae\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T18",
+   "layout": "v3",
+   "kind": "create_timeout",
+   "title": "提交后门户响应超时（故障注入 8 秒）：先核实再决定是否重试",
+   "success": true,
+   "problems": [],
+   "statuses": [
+    "created"
+   ],
+   "seconds": 20.83,
+   "needs_human": false,
+   "expected_handover": false,
+   "model_steps": 11,
+   "model_calls": 15,
+   "cache_steps": 30,
+   "scripted_steps": 0,
+   "messages": [
+    "已提交并在门户中核实"
+   ],
+   "traces": [
+    "runs\\20261118-015809-060-create_sales_order_draft-c4bc\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T19",
+   "layout": "v3",
+   "kind": "create_rejected",
+   "title": "审批人驳回：不得提交",
+   "success": true,
+   "problems": [],
+   "statuses": [
+    "rejected"
+   ],
+   "seconds": 8.16,
+   "needs_human": false,
+   "expected_handover": false,
+   "model_steps": 4,
+   "model_calls": 6,
+   "cache_steps": 21,
+   "scripted_steps": 0,
+   "messages": [
+    "审批人驳回，未提交"
+   ],
+   "traces": [
+    "runs\\20261118-015830-061-create_sales_order_draft-75ea\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T20",
+   "layout": "v3",
+   "kind": "create_inactive",
+   "title": "订单含停用物料：门户报错，转人工",
+   "success": true,
+   "problems": [],
+   "statuses": [
+    "portal_rejected"
+   ],
+   "seconds": 7.55,
+   "needs_human": true,
+   "expected_handover": true,
+   "model_steps": 3,
+   "model_calls": 5,
+   "cache_steps": 21,
+   "scripted_steps": 0,
+   "messages": [
+    "门户校验未通过，未提交，需要人工处理"
+   ],
+   "traces": [
+    "runs\\20261118-015838-062-create_sales_order_draft-4be1\\trace.jsonl"
+   ]
+  }
+ ]
+}

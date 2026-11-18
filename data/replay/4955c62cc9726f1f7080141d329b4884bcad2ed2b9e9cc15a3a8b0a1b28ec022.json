@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "4955c62cc9726f1f7080141d329b4884bcad2ed2b9e9cc15a3a8b0a1b28ec022",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:35:23+00:00",
+   "usage": {
+    "prompt_tokens": 459,
+    "completion_tokens": 49,
+    "total_tokens": 508,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 331
+   },
+   "response": "{\"actions\":[{\"ref\":\"e1\",\"op\":\"fill\",\"value\":\"<secret>\"}],\"reason\":\"登录页的操作员代码输入框 e1 用于填写登录账号，值按要求以 <secret> 占位。\"}"
+  }
+ ]
+}

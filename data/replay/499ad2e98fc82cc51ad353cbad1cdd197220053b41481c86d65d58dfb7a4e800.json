@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "499ad2e98fc82cc51ad353cbad1cdd197220053b41481c86d65d58dfb7a4e800",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:37:40+00:00",
+   "usage": {
+    "prompt_tokens": 601,
+    "completion_tokens": 167,
+    "total_tokens": 768,
+    "prompt_tokens_details": {
+     "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 95
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 217
+   },
+   "response": "{\"rows\":[{\"order_no\":\"XS26110019\",\"customer_po\":\"HL-PO-261113-01A\",\"customer\":\"沪东衡砺设备维修有限公司\",\"order_date\":\"2026-11-13\",\"delivery_date\":\"2026-11-20\",\"amount\":9214.70,\"status\":\"草稿\"}]}"
+  }
+ ]
+}

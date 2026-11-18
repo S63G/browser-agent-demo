@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "f3178fa5c4bbed2127f2f17b4ef62977ac2325022845d78f9aa37c62abd4432b",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:34:15+00:00",
+   "usage": {
+    "prompt_tokens": 999,
+    "completion_tokens": 79,
+    "total_tokens": 1078,
+    "prompt_tokens_details": {
+     "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 37
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 615
+   },
+   "response": "{\"actions\":[],\"reason\":\"页面上没有分页控件或“下一页”可点元素（结果共 2 条，单页显示），已经是最后一页，无法翻页。\"}"
+  }
+ ]
+}

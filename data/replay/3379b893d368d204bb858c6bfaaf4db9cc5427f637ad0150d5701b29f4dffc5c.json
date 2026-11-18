@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "3379b893d368d204bb858c6bfaaf4db9cc5427f637ad0150d5701b29f4dffc5c",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:33:03+00:00",
+   "usage": {
+    "prompt_tokens": 909,
+    "completion_tokens": 81,
+    "total_tokens": 990,
+    "prompt_tokens_details": {
+     "cached_tokens": 768
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 21
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 141
+   },
+   "response": "{\"actions\":[{\"ref\":\"e15\",\"op\":\"fill\",\"value\":\"3.01.0015\"}],\"reason\":\"第 3 行存在，e15 是第 3 行的存货编码输入框，填入允许的物料编码 3.01.0015\"}"
+  }
+ ]
+}

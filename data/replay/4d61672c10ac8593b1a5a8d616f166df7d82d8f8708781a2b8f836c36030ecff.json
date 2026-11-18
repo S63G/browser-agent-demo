@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "4d61672c10ac8593b1a5a8d616f166df7d82d8f8708781a2b8f836c36030ecff",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:33:55+00:00",
+   "usage": {
+    "prompt_tokens": 942,
+    "completion_tokens": 72,
+    "total_tokens": 1014,
+    "prompt_tokens_details": {
+     "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 27
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 558
+   },
+   "response": "{\"actions\":[],\"reason\":\"查询结果共 1 条，且页面上的可操作元素中没有翻页控件（下一页链接或按钮），当前已经是最后一页，因此没有可点击的下一页。\"}"
+  }
+ ]
+}

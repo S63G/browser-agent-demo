@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "b465767fafdd58f8ae40d4bacd5e0fe6920f5ee367adea18d1325f4b6f8340ce",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:37:42+00:00",
+   "usage": {
+    "prompt_tokens": 1058,
+    "completion_tokens": 146,
+    "total_tokens": 1204,
+    "prompt_tokens_details": {
+     "cached_tokens": 256
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 93
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 802
+   },
+   "response": "{\"actions\":[],\"reason\":\"页面显示“共1条 第1/1页”，当前已是最后一页；元素列表中也没有可点击的“下页”元素（只有转到页输入框和GO按钮），因此不需要翻页。\"}"
+  }
+ ]
+}

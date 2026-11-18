@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "4161ffd12baf3748d3871a75d4d245aed52cd3be4abc9037eef3e5f1fc7b7688",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:27+00:00",
+   "usage": {
+    "prompt_tokens": 2008,
+    "completion_tokens": 70,
+    "total_tokens": 2078,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 21
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1880
+   },
+   "response": "{\"actions\":[{\"ref\":\"e6\",\"op\":\"fill\",\"value\":\"YG-2611-0457\"}],\"reason\":\"客户订单号输入框为 e6，填入允许值 YG-2611-0457。\"}"
+  }
+ ]
+}

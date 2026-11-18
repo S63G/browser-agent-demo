@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "cd2423ef83a7d7c37036b09018c700af337e2c1bb25d055ea15d3dc54775d228",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:32:58+00:00",
+   "usage": {
+    "prompt_tokens": 899,
+    "completion_tokens": 78,
+    "total_tokens": 977,
+    "prompt_tokens_details": {
+     "cached_tokens": 765
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 19
+    },
+    "prompt_cache_hit_tokens": 765,
+    "prompt_cache_miss_tokens": 134
+   },
+   "response": "{\"actions\":[{\"ref\":\"e12\",\"op\":\"fill\",\"value\":\"6.01.0004\"}],\"reason\":\"页面上存在第 2 行明细，其存货编码输入框为 e12，填入允许的物料编码 6.01.0004。\"}"
+  }
+ ]
+}

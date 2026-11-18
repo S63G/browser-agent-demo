@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "d3fd39fbc67417b702c4e212a173e5309b1f8131bdeb75c1a23431fb412c7ec9",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:37:09+00:00",
+   "usage": {
+    "prompt_tokens": 1054,
+    "completion_tokens": 66,
+    "total_tokens": 1120,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 20
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 926
+   },
+   "response": "{\"actions\":[{\"ref\":\"e11\",\"op\":\"click\"}],\"reason\":\"查询结果第 1 行的单据号链接 XS26110022 对应元素 e11，点击即可打开该单据详情。\"}"
+  }
+ ]
+}

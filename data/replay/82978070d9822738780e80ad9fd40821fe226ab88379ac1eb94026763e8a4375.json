@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "82978070d9822738780e80ad9fd40821fe226ab88379ac1eb94026763e8a4375",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:33:15+00:00",
+   "usage": {
+    "prompt_tokens": 1147,
+    "completion_tokens": 88,
+    "total_tokens": 1235,
+    "prompt_tokens_details": {
+     "cached_tokens": 896
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 29
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 251
+   },
+   "response": "{\"actions\":[{\"ref\":\"e21\",\"op\":\"fill\",\"value\":\"3.01.0009\"}],\"reason\":\"第 5 行存在，物料编码输入框为 e21（name:ln5_code），填入允许的值 3.01.0009。\"}"
+  }
+ ]
+}

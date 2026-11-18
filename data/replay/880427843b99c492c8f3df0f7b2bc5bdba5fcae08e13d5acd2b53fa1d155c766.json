@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "880427843b99c492c8f3df0f7b2bc5bdba5fcae08e13d5acd2b53fa1d155c766",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:03+00:00",
+   "usage": {
+    "prompt_tokens": 796,
+    "completion_tokens": 83,
+    "total_tokens": 879,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 36
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 668
+   },
+   "response": "{\"actions\":[{\"ref\":\"e5\",\"op\":\"fill\",\"value\":\"XS26100003\"}],\"reason\":\"“单据号”查询条件对应文本框 e5，直接填入销售单号 XS26100003。\"}"
+  }
+ ]
+}

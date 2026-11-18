@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "ae605b1183469032c937f4f00ec1091bc41c53be66f2de07f441314429c81ed6",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:14+00:00",
+   "usage": {
+    "prompt_tokens": 599,
+    "completion_tokens": 151,
+    "total_tokens": 750,
+    "prompt_tokens_details": {
+     "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 81
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 215
+   },
+   "response": "{\"rows\":[{\"order_no\":\"XS26100016\",\"customer_po\":\"CL-PO-20261027\",\"customer\":\"苏州晨岚汇自动化设备有限公司\",\"order_date\":\"2026-10-27\",\"delivery_date\":\"2026-11-01\",\"amount\":4944.80,\"status\":\"已发货\"}]}"
+  }
+ ]
+}

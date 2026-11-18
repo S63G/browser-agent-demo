@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "e278c27b3503c49ebf4da969eb063bedb7f7645d16a256be1c4ffc84d2540e07",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:33:46+00:00",
+   "usage": {
+    "prompt_tokens": 664,
+    "completion_tokens": 67,
+    "total_tokens": 731,
+    "prompt_tokens_details": {
+     "cached_tokens": 512
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 152
+   },
+   "response": "{\"rows\":[{\"order_no\":\"XS26110026\",\"customer_po\":\"PRT-55012\",\"customer\":\"Pacific Rimstone Tooling Ltd\",\"order_date\":\"2026-11-02\",\"delivery_date\":\"2026-11-16\",\"amount\":9449.70,\"status\":\"草稿\"}]}"
+  }
+ ]
+}

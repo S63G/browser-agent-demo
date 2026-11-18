@@ -1,0 +1,380 @@
+{
+ "note": "Copied from Demo A (订单邮件 → ERP 智能录单): the 12 clean orders Demo A extracts, maps and posts without human review. Same fictional distributor (瑞丰机电批发（虚构）), customers and SKUs. 演示数据均为虚构。",
+ "orders": [
+  {
+   "source_doc": "20261102-0912_po_HL-PO-261102-01.eml",
+   "customer_id": "C001",
+   "customer_name": "沪东衡砺设备维修有限公司",
+   "customer_po": "HL-PO-261102-01",
+   "order_date": "2026-11-02",
+   "delivery_date": "2026-11-12",
+   "lines": [
+    {
+     "sku": "4.01.0013",
+     "qty": 12,
+     "unit_price": 197.9
+    },
+    {
+     "sku": "5.01.0014",
+     "qty": 4,
+     "unit_price": 2375.5
+    },
+    {
+     "sku": "3.01.0019",
+     "qty": 3,
+     "unit_price": 78.0
+    },
+    {
+     "sku": "5.01.0010",
+     "qty": 1,
+     "unit_price": 1447.6
+    }
+   ]
+  },
+  {
+   "source_doc": "20261102-1030_YG-2611-0457.pdf",
+   "customer_id": "C002",
+   "customer_name": "甬港澄远机械配件厂",
+   "customer_po": "YG-2611-0457",
+   "order_date": "2026-11-02",
+   "delivery_date": "2026-11-10",
+   "lines": [
+    {
+     "sku": "7.02.0005",
+     "qty": 5,
+     "unit_price": 26.6
+    },
+    {
+     "sku": "6.01.0004",
+     "qty": 20,
+     "unit_price": 16.9
+    },
+    {
+     "sku": "3.01.0015",
+     "qty": 5,
+     "unit_price": 72.0
+    },
+    {
+     "sku": "4.01.0005",
+     "qty": 50,
+     "unit_price": 159.3
+    },
+    {
+     "sku": "3.01.0009",
+     "qty": 1,
+     "unit_price": 54.0
+    }
+   ]
+  },
+  {
+   "source_doc": "20261102-1405_po_PRT-55012.eml",
+   "customer_id": "C003",
+   "customer_name": "Pacific Rimstone Tooling Ltd",
+   "customer_po": "PRT-55012",
+   "order_date": "2026-11-02",
+   "delivery_date": "2026-11-16",
+   "lines": [
+    {
+     "sku": "3.01.0006",
+     "qty": 10,
+     "unit_price": 78.0
+    },
+    {
+     "sku": "6.01.0008",
+     "qty": 6,
+     "unit_price": 19.7
+    },
+    {
+     "sku": "5.01.0014",
+     "qty": 3,
+     "unit_price": 2280.5
+    },
+    {
+     "sku": "1.02.0005",
+     "qty": 30,
+     "unit_price": 57.0
+    }
+   ]
+  },
+  {
+   "source_doc": "20261103-0850_CL-PO-20261103.xlsx",
+   "customer_id": "C004",
+   "customer_name": "苏州晨岚汇自动化设备有限公司",
+   "customer_po": "CL-PO-20261103",
+   "order_date": "2026-11-03",
+   "delivery_date": "2026-11-13",
+   "lines": [
+    {
+     "sku": "6.01.0020",
+     "qty": 10,
+     "unit_price": 28.6
+    },
+    {
+     "sku": "1.03.0007",
+     "qty": 100,
+     "unit_price": 13.3
+    },
+    {
+     "sku": "7.02.0002",
+     "qty": 10,
+     "unit_price": 24.8
+    },
+    {
+     "sku": "3.01.0032",
+     "qty": 10,
+     "unit_price": 173.0
+    },
+    {
+     "sku": "2.01.0015",
+     "qty": 5,
+     "unit_price": 715.7
+    },
+    {
+     "sku": "6.01.0006",
+     "qty": 6,
+     "unit_price": 18.2
+    }
+   ]
+  },
+  {
+   "source_doc": "20261103-1540_KMS-PO-7781.pdf",
+   "customer_id": "C006",
+   "customer_name": "Kestrelmoor Marine Supplies Pte Ltd",
+   "customer_po": "KMS-PO-7781",
+   "order_date": "2026-11-03",
+   "delivery_date": "2026-11-17",
+   "lines": [
+    {
+     "sku": "1.03.0013",
+     "qty": 6,
+     "unit_price": 21.3
+    },
+    {
+     "sku": "3.01.0004",
+     "qty": 1,
+     "unit_price": 48.0
+    },
+    {
+     "sku": "9.01.0008",
+     "qty": 5,
+     "unit_price": 142.1
+    },
+    {
+     "sku": "6.01.0015",
+     "qty": 6,
+     "unit_price": 23.7
+    }
+   ]
+  },
+  {
+   "source_doc": "20261104-0905_shunda_SD-1104.eml",
+   "customer_id": "C007",
+   "customer_name": "佛山顺达屿五金商行",
+   "customer_po": "SD-1104",
+   "order_date": "2026-11-04",
+   "delivery_date": "2026-11-11",
+   "lines": [
+    {
+     "sku": "1.03.0012",
+     "qty": 20,
+     "unit_price": 21.6
+    },
+    {
+     "sku": "1.01.0025",
+     "qty": 6,
+     "unit_price": 8.0
+    },
+    {
+     "sku": "9.02.0005",
+     "qty": 30,
+     "unit_price": 1.2
+    }
+   ]
+  },
+  {
+   "source_doc": "20261106-1010_CL-PO-20261106.xlsx",
+   "customer_id": "C004",
+   "customer_name": "苏州晨岚汇自动化设备有限公司",
+   "customer_po": "CL-PO-20261106",
+   "order_date": "2026-11-06",
+   "delivery_date": "2026-11-16",
+   "lines": [
+    {
+     "sku": "1.01.0014",
+     "qty": 100,
+     "unit_price": 12.4
+    },
+    {
+     "sku": "6.01.0015",
+     "qty": 10,
+     "unit_price": 24.9
+    },
+    {
+     "sku": "4.01.0004",
+     "qty": 50,
+     "unit_price": 188.0
+    },
+    {
+     "sku": "1.03.0014",
+     "qty": 5,
+     "unit_price": 21.2
+    },
+    {
+     "sku": "8.02.0005",
+     "qty": 20,
+     "unit_price": 19.4
+    }
+   ]
+  },
+  {
+   "source_doc": "20261112-0910_po_HL-PO-261112-01.eml",
+   "customer_id": "C001",
+   "customer_name": "沪东衡砺设备维修有限公司",
+   "customer_po": "HL-PO-261112-01",
+   "order_date": "2026-11-12",
+   "delivery_date": "2026-11-19",
+   "lines": [
+    {
+     "sku": "1.02.0006",
+     "qty": 12,
+     "unit_price": 56.9
+    },
+    {
+     "sku": "8.04.0003",
+     "qty": 50,
+     "unit_price": 6.4
+    },
+    {
+     "sku": "3.01.0011",
+     "qty": 3,
+     "unit_price": 72.0
+    },
+    {
+     "sku": "3.01.0004",
+     "qty": 3,
+     "unit_price": 51.0
+    }
+   ]
+  },
+  {
+   "source_doc": "20261112-1140_KMS-PO-7802.pdf",
+   "customer_id": "C006",
+   "customer_name": "Kestrelmoor Marine Supplies Pte Ltd",
+   "customer_po": "KMS-PO-7802",
+   "order_date": "2026-11-12",
+   "delivery_date": "2026-11-24",
+   "lines": [
+    {
+     "sku": "4.01.0013",
+     "qty": 4,
+     "unit_price": 208.3
+    },
+    {
+     "sku": "1.02.0007",
+     "qty": 50,
+     "unit_price": 73.9
+    },
+    {
+     "sku": "8.04.0005",
+     "qty": 6,
+     "unit_price": 6.4
+    },
+    {
+     "sku": "1.01.0028",
+     "qty": 12,
+     "unit_price": 9.5
+    }
+   ]
+  },
+  {
+   "source_doc": "20261112-1500_po_LX-2611-033.eml",
+   "customer_id": "C008",
+   "customer_name": "温州砺芯电气成套有限公司",
+   "customer_po": "LX-2611-033",
+   "order_date": "2026-11-12",
+   "delivery_date": "2026-11-20",
+   "lines": [
+    {
+     "sku": "9.01.0002",
+     "qty": 12,
+     "unit_price": 90.3
+    },
+    {
+     "sku": "4.02.0008",
+     "qty": 8,
+     "unit_price": 173.9
+    },
+    {
+     "sku": "5.01.0011",
+     "qty": 4,
+     "unit_price": 1769.4
+    },
+    {
+     "sku": "8.03.0003",
+     "qty": 12,
+     "unit_price": 12.2
+    }
+   ]
+  },
+  {
+   "source_doc": "20261113-0920_po_HL-PO-261113-01.eml",
+   "customer_id": "C001",
+   "customer_name": "沪东衡砺设备维修有限公司",
+   "customer_po": "HL-PO-261113-01",
+   "order_date": "2026-11-13",
+   "delivery_date": "2026-11-23",
+   "lines": [
+    {
+     "sku": "8.02.0008",
+     "qty": 10,
+     "unit_price": 21.5
+    },
+    {
+     "sku": "2.01.0005",
+     "qty": 3,
+     "unit_price": 216.7
+    },
+    {
+     "sku": "4.02.0002",
+     "qty": 2,
+     "unit_price": 100.0
+    },
+    {
+     "sku": "8.03.0003",
+     "qty": 12,
+     "unit_price": 12.2
+    }
+   ]
+  },
+  {
+   "source_doc": "20261113-1430_po_PRT-55071.eml",
+   "customer_id": "C003",
+   "customer_name": "Pacific Rimstone Tooling Ltd",
+   "customer_po": "PRT-55071",
+   "order_date": "2026-11-13",
+   "delivery_date": "2026-11-25",
+   "lines": [
+    {
+     "sku": "5.02.0002",
+     "qty": 4,
+     "unit_price": 878.4
+    },
+    {
+     "sku": "3.01.0016",
+     "qty": 10,
+     "unit_price": 86.0
+    },
+    {
+     "sku": "8.03.0003",
+     "qty": 100,
+     "unit_price": 12.3
+    },
+    {
+     "sku": "6.02.0009",
+     "qty": 3,
+     "unit_price": 9.0
+    }
+   ]
+  }
+ ]
+}

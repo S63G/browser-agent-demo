@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "6c7fc40e28e6554c0738474236e0571929da0cb04c68917a8fb78e846faf0c11",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:38:25+00:00",
+   "usage": {
+    "prompt_tokens": 2037,
+    "completion_tokens": 145,
+    "total_tokens": 2182,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 55
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1909
+   },
+   "response": "{\"actions\":[{\"ref\":\"e7\",\"op\":\"select\",\"value\":\"2026\"},{\"ref\":\"e8\",\"op\":\"select\",\"value\":\"11\"},{\"ref\":\"e9\",\"op\":\"select\",\"value\":\"12\"}],\"reason\":\"单据日期为下拉框拆分成年/月/日三部分，需分别选择 2026 年、11 月、12 日（对应 e7/e8/e9）。\"}"
+  }
+ ]
+}

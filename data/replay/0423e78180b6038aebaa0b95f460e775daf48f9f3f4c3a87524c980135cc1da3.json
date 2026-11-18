@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "0423e78180b6038aebaa0b95f460e775daf48f9f3f4c3a87524c980135cc1da3",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:32:54+00:00",
+   "usage": {
+    "prompt_tokens": 889,
+    "completion_tokens": 53,
+    "total_tokens": 942,
+    "prompt_tokens_details": {
+     "cached_tokens": 640
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 249
+   },
+   "response": "{\"actions\":[{\"ref\":\"e9\",\"op\":\"fill\",\"value\":\"7.02.0005\"}],\"reason\":\"第 1 行存货编码输入框为 e9，填入允许的物料编码 7.02.0005。\"}"
+  }
+ ]
+}

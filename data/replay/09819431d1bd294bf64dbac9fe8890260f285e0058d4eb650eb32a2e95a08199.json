@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "09819431d1bd294bf64dbac9fe8890260f285e0058d4eb650eb32a2e95a08199",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:33:40+00:00",
+   "usage": {
+    "prompt_tokens": 918,
+    "completion_tokens": 163,
+    "total_tokens": 1081,
+    "prompt_tokens_details": {
+     "cached_tokens": 768
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 99
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 150
+   },
+   "response": "{\"actions\":[],\"reason\":\"页面明细区当前只有第 1、2、3 行，没有第 4 行；且本步骤允许的操作仅为 fill/select，无法点击“+ 新增一行”创建第 4 行，因此没有可填写的目标元素。\"}"
+  }
+ ]
+}

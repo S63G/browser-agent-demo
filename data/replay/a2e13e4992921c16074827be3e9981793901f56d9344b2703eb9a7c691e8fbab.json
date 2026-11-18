@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "a2e13e4992921c16074827be3e9981793901f56d9344b2703eb9a7c691e8fbab",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:33:49+00:00",
+   "usage": {
+    "prompt_tokens": 815,
+    "completion_tokens": 168,
+    "total_tokens": 983,
+    "prompt_tokens_details": {
+     "cached_tokens": 640
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 175
+   },
+   "response": "{\"order_no\":\"XS26110026\",\"customer\":\"Pacific Rimstone Tooling Ltd\",\"customer_po\":\"PRT-55012\",\"order_date\":\"2026-11-02\",\"delivery_date\":\"2026-11-16\",\"status\":\"草稿\",\"remark\":\"[ik-95feb6609081] 浏览器Agent录入\",\"total\":9449.70,\"lines\":[{\"sku\":\"3.01.0006\",\"qty\":10,\"unit_price\":78.00},{\"sku\":\"6.01.0008\",\"qty\":6,\"unit_price\":19.70},{\"sku\":\"5.01.0014\",\"qty\":3,\"unit_price\":2280.50},{\"sku\":\"1.02.0005\",\"qty\":30,\"unit_price\":57.00}]}"
+  }
+ ]
+}

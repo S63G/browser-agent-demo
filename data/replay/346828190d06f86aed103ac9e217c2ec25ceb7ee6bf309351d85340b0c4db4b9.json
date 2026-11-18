@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "346828190d06f86aed103ac9e217c2ec25ceb7ee6bf309351d85340b0c4db4b9",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:31:31+00:00",
+   "usage": {
+    "prompt_tokens": 836,
+    "completion_tokens": 55,
+    "total_tokens": 891,
+    "prompt_tokens_details": {
+     "cached_tokens": 640
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 9
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 196
+   },
+   "response": "{\"actions\":[{\"ref\":\"e7\",\"op\":\"click\",\"value\":\"\"}],\"reason\":\"页面上“检索”按钮为 e7（button[submit], name=go），点击它即可执行查询。\"}"
+  }
+ ]
+}

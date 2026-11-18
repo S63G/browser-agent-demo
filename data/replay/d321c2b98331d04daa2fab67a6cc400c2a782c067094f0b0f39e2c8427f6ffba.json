@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "d321c2b98331d04daa2fab67a6cc400c2a782c067094f0b0f39e2c8427f6ffba",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:53+00:00",
+   "usage": {
+    "prompt_tokens": 2195,
+    "completion_tokens": 64,
+    "total_tokens": 2259,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 15
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 2067
+   },
+   "response": "{\"actions\":[{\"ref\":\"e25\",\"op\":\"fill\",\"value\":\"159.3\"}],\"reason\":\"第4行明细的含税单价输入框是 e25（当前为空），填入允许值 159.3。\"}"
+  }
+ ]
+}

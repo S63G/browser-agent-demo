@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "c9329fd3af0afc4644e99a1b29f1808d97ea595fcc53156342da65e8e175a851",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:32:44+00:00",
+   "usage": {
+    "prompt_tokens": 840,
+    "completion_tokens": 2709,
+    "total_tokens": 3549,
+    "prompt_tokens_details": {
+     "cached_tokens": 640
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2628
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 200
+   },
+   "response": "{\"actions\":[{\"ref\":\"e7\",\"op\":\"select\",\"value\":\"甬港澄远机械配件厂（C002）\"}],\"reason\":\"客户名称下拉框 e7 的选项中，「甬港澄远机械配件厂（C002）」对应允许值 C002（客户编码）和客户名称甬港澄远机械配件厂，选择该项即可完成下单客户填写。\"}"
+  }
+ ]
+}

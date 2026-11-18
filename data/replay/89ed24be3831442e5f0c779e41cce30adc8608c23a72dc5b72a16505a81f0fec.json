@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "89ed24be3831442e5f0c779e41cce30adc8608c23a72dc5b72a16505a81f0fec",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:30+00:00",
+   "usage": {
+    "prompt_tokens": 2040,
+    "completion_tokens": 175,
+    "total_tokens": 2215,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 77
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1912
+   },
+   "response": "{\"actions\":[{\"ref\":\"e10\",\"op\":\"select\",\"value\":\"2026\"},{\"ref\":\"e11\",\"op\":\"select\",\"value\":\"11\"},{\"ref\":\"e12\",\"op\":\"select\",\"value\":\"10\"}],\"reason\":\"交货日期要求 2026-11-10，页面用年/月/日三个下拉框分别选择，对应 e10 选 2026、e11 选 11、e12 选 10。\"}"
+  }
+ ]
+}

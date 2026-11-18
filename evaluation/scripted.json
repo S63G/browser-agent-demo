@@ -1,0 +1,552 @@
+{
+ "config": "scripted",
+ "title": "仅脚本（选择器按 v1 写）",
+ "mode": "scripted",
+ "llm_mode": "off",
+ "model": null,
+ "summary": {
+  "all": {
+   "tasks": 20,
+   "success": 10,
+   "mean_seconds": 1.8,
+   "median_seconds": 1.7,
+   "needs_human": 11,
+   "needs_human_unexpected": 9,
+   "model_steps": 0,
+   "model_calls": 0,
+   "tasks_using_model": 0
+  },
+  "by_layout": {
+   "v1": {
+    "tasks": 10,
+    "success": 10,
+    "mean_seconds": 1.8,
+    "median_seconds": 1.0,
+    "needs_human": 1,
+    "needs_human_unexpected": 0,
+    "model_steps": 0,
+    "model_calls": 0,
+    "tasks_using_model": 0
+   },
+   "v2": {
+    "tasks": 10,
+    "success": 0,
+    "mean_seconds": 1.9,
+    "median_seconds": 1.7,
+    "needs_human": 10,
+    "needs_human_unexpected": 9,
+    "model_steps": 0,
+    "model_calls": 0,
+    "tasks_using_model": 0
+   }
+  },
+  "duplicate_orders": 0,
+  "usage": null
+ },
+ "tasks": [
+  {
+   "id": "T01",
+   "layout": "v1",
+   "kind": "search_po",
+   "title": "按客户单号查单",
+   "success": true,
+   "problems": [],
+   "statuses": [
+    "ok"
+   ],
+   "seconds": 1.12,
+   "needs_human": false,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 7,
+   "messages": [],
+   "traces": [
+    "runs\\20261118-015456-001-search_order-ceaf\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T02",
+   "layout": "v1",
+   "kind": "search_paged",
+   "title": "按客户 + 日期范围查单（结果跨两页）",
+   "success": true,
+   "problems": [],
+   "statuses": [
+    "ok"
+   ],
+   "seconds": 0.46,
+   "needs_human": false,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 8,
+   "messages": [],
+   "traces": [
+    "runs\\20261118-015456-002-search_order-a726\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T03",
+   "layout": "v1",
+   "kind": "stock",
+   "title": "查 3 个料号的可用库存（含 1 个不存在的料号）",
+   "success": true,
+   "problems": [],
+   "statuses": [
+    "ok"
+   ],
+   "seconds": 0.48,
+   "needs_human": false,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 10,
+   "messages": [],
+   "traces": [
+    "runs\\20261118-015456-003-check_stock-9c5c\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T04",
+   "layout": "v1",
+   "kind": "invoice",
+   "title": "下载已开票订单的发票 PDF",
+   "success": true,
+   "problems": [],
+   "statuses": [
+    "ok"
+   ],
+   "seconds": 0.61,
+   "needs_human": false,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 7,
+   "messages": [],
+   "traces": [
+    "runs\\20261118-015457-004-download_invoice-c05c\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T05",
+   "layout": "v1",
+   "kind": "invoice_none",
+   "title": "未开票订单：应如实返回“无发票”",
+   "success": true,
+   "problems": [],
+   "statuses": [
+    "no_invoice"
+   ],
+   "seconds": 0.51,
+   "needs_human": false,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 6,
+   "messages": [
+    "该单据尚未开票"
+   ],
+   "traces": [
+    "runs\\20261118-015458-005-download_invoice-a1bb\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T06",
+   "layout": "v1",
+   "kind": "create_twice",
+   "title": "录入 Demo A 订单，再用同一幂等键调用一次",
+   "success": true,
+   "problems": [],
+   "statuses": [
+    "created",
+    "already_exists"
+   ],
+   "seconds": 1.41,
+   "needs_human": false,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 34,
+   "messages": [
+    "已提交并在门户中核实",
+    "本地台账显示该订单已录入并核实过，没有再次操作门户"
+   ],
+   "traces": [
+    "runs\\20261118-015458-006-create_sales_order_draft-c80d\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T07",
+   "layout": "v1",
+   "kind": "create_lines",
+   "title": "录入多行订单（含箱装物料）",
+   "success": true,
+   "problems": [],
+   "statuses": [
+    "created"
+   ],
+   "seconds": 1.46,
+   "needs_human": false,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 34,
+   "messages": [
+    "已提交并在门户中核实"
+   ],
+   "traces": [
+    "runs\\20261118-015500-007-create_sales_order_draft-4820\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T08",
+   "layout": "v1",
+   "kind": "create_timeout",
+   "title": "提交后门户响应超时（故障注入 8 秒）：先核实再决定是否重试",
+   "success": true,
+   "problems": [],
+   "statuses": [
+    "created"
+   ],
+   "seconds": 9.79,
+   "needs_human": false,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 42,
+   "messages": [
+    "已提交并在门户中核实"
+   ],
+   "traces": [
+    "runs\\20261118-015501-008-create_sales_order_draft-db8e\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T09",
+   "layout": "v1",
+   "kind": "create_rejected",
+   "title": "审批人驳回：不得提交",
+   "success": true,
+   "problems": [],
+   "statuses": [
+    "rejected"
+   ],
+   "seconds": 1.08,
+   "needs_human": false,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 22,
+   "messages": [
+    "审批人驳回，未提交"
+   ],
+   "traces": [
+    "runs\\20261118-015511-009-create_sales_order_draft-4e7e\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T10",
+   "layout": "v1",
+   "kind": "create_inactive",
+   "title": "订单含停用物料：门户报错，转人工",
+   "success": true,
+   "problems": [],
+   "statuses": [
+    "portal_rejected"
+   ],
+   "seconds": 0.89,
+   "needs_human": true,
+   "expected_handover": true,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 25,
+   "messages": [
+    "门户校验未通过，未提交，需要人工处理"
+   ],
+   "traces": [
+    "runs\\20261118-015512-010-create_sales_order_draft-c34b\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T11",
+   "layout": "v2",
+   "kind": "search_po",
+   "title": "按客户单号查单",
+   "success": false,
+   "problems": [
+    "status=needs_human: 脚本选择器失效（#menu-order-search），且未启用模型兜底：打开销售订单查询页面（菜单）"
+   ],
+   "statuses": [
+    "needs_human"
+   ],
+   "seconds": 1.72,
+   "needs_human": true,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [
+    "脚本选择器失效（#menu-order-search），且未启用模型兜底：打开销售订单查询页面（菜单）"
+   ],
+   "traces": [
+    "runs\\20261118-015513-011-search_order-0d33\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T12",
+   "layout": "v2",
+   "kind": "search_paged",
+   "title": "按客户 + 日期范围查单（结果跨两页）",
+   "success": false,
+   "problems": [
+    "status=needs_human: 脚本选择器失效（#menu-order-search），且未启用模型兜底：打开销售订单查询页面（菜单）"
+   ],
+   "statuses": [
+    "needs_human"
+   ],
+   "seconds": 1.7,
+   "needs_human": true,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [
+    "脚本选择器失效（#menu-order-search），且未启用模型兜底：打开销售订单查询页面（菜单）"
+   ],
+   "traces": [
+    "runs\\20261118-015515-012-search_order-f0cd\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T13",
+   "layout": "v2",
+   "kind": "stock",
+   "title": "查 3 个料号的可用库存（含 1 个不存在的料号）",
+   "success": false,
+   "problems": [
+    "status=needs_human: 脚本选择器失效（#menu-stock），且未启用模型兜底：打开库存查询（存货查询/现存量查询）页面"
+   ],
+   "statuses": [
+    "needs_human"
+   ],
+   "seconds": 1.71,
+   "needs_human": true,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [
+    "脚本选择器失效（#menu-stock），且未启用模型兜底：打开库存查询（存货查询/现存量查询）页面"
+   ],
+   "traces": [
+    "runs\\20261118-015516-013-check_stock-48c3\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T14",
+   "layout": "v2",
+   "kind": "invoice",
+   "title": "下载已开票订单的发票 PDF",
+   "success": false,
+   "problems": [
+    "status=needs_human ≠ ok: 脚本选择器失效（#menu-order-search），且未启用模型兜底：打开销售订单查询页面（菜单）"
+   ],
+   "statuses": [
+    "needs_human"
+   ],
+   "seconds": 1.69,
+   "needs_human": true,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [
+    "脚本选择器失效（#menu-order-search），且未启用模型兜底：打开销售订单查询页面（菜单）"
+   ],
+   "traces": [
+    "runs\\20261118-015518-014-download_invoice-5c99\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T15",
+   "layout": "v2",
+   "kind": "invoice_none",
+   "title": "未开票订单：应如实返回“无发票”",
+   "success": false,
+   "problems": [
+    "status=needs_human ≠ no_invoice: 脚本选择器失效（#menu-order-search），且未启用模型兜底：打开销售订单查询页面（菜单）"
+   ],
+   "statuses": [
+    "needs_human"
+   ],
+   "seconds": 1.7,
+   "needs_human": true,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [
+    "脚本选择器失效（#menu-order-search），且未启用模型兜底：打开销售订单查询页面（菜单）"
+   ],
+   "traces": [
+    "runs\\20261118-015520-015-download_invoice-d2a1\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T16",
+   "layout": "v2",
+   "kind": "create_twice",
+   "title": "录入 Demo A 订单，再用同一幂等键调用一次",
+   "success": false,
+   "problems": [
+    "status=needs_human ≠ created: 脚本选择器失效（#menu-order-search），且未启用模型兜底：打开销售订单查询页面（菜单）",
+    "未完成提交后核实",
+    "第二次调用 status=needs_human 单号 None",
+    "门户里带此幂等键的订单有 0 张（应为 1）"
+   ],
+   "statuses": [
+    "needs_human",
+    "needs_human"
+   ],
+   "seconds": 3.45,
+   "needs_human": true,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [
+    "脚本选择器失效（#menu-order-search），且未启用模型兜底：打开销售订单查询页面（菜单）",
+    "脚本选择器失效（#menu-order-search），且未启用模型兜底：打开销售订单查询页面（菜单）"
+   ],
+   "traces": [
+    "runs\\20261118-015521-016-create_sales_order_draft-5554\\trace.jsonl",
+    "runs\\20261118-015523-017-create_sales_order_draft-14c4\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T17",
+   "layout": "v2",
+   "kind": "create_lines",
+   "title": "录入多行订单（含箱装物料）",
+   "success": false,
+   "problems": [
+    "status=needs_human ≠ created: 脚本选择器失效（#menu-order-search），且未启用模型兜底：打开销售订单查询页面（菜单）",
+    "未完成提交后核实",
+    "门户里带此幂等键的订单有 0 张（应为 1）"
+   ],
+   "statuses": [
+    "needs_human"
+   ],
+   "seconds": 1.69,
+   "needs_human": true,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [
+    "脚本选择器失效（#menu-order-search），且未启用模型兜底：打开销售订单查询页面（菜单）"
+   ],
+   "traces": [
+    "runs\\20261118-015525-018-create_sales_order_draft-83b1\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T18",
+   "layout": "v2",
+   "kind": "create_timeout",
+   "title": "提交后门户响应超时（故障注入 8 秒）：先核实再决定是否重试",
+   "success": false,
+   "problems": [
+    "status=needs_human ≠ created: 脚本选择器失效（#menu-order-search），且未启用模型兜底：打开销售订单查询页面（菜单）",
+    "未完成提交后核实",
+    "门户里带此幂等键的订单有 0 张（应为 1）"
+   ],
+   "statuses": [
+    "needs_human"
+   ],
+   "seconds": 1.75,
+   "needs_human": true,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [
+    "脚本选择器失效（#menu-order-search），且未启用模型兜底：打开销售订单查询页面（菜单）"
+   ],
+   "traces": [
+    "runs\\20261118-015527-019-create_sales_order_draft-bbce\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T19",
+   "layout": "v2",
+   "kind": "create_rejected",
+   "title": "审批人驳回：不得提交",
+   "success": false,
+   "problems": [
+    "status=needs_human ≠ rejected: 脚本选择器失效（#menu-order-search），且未启用模型兜底：打开销售订单查询页面（菜单）"
+   ],
+   "statuses": [
+    "needs_human"
+   ],
+   "seconds": 1.71,
+   "needs_human": true,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [
+    "脚本选择器失效（#menu-order-search），且未启用模型兜底：打开销售订单查询页面（菜单）"
+   ],
+   "traces": [
+    "runs\\20261118-015528-020-create_sales_order_draft-d2d6\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T20",
+   "layout": "v2",
+   "kind": "create_inactive",
+   "title": "订单含停用物料：门户报错，转人工",
+   "success": false,
+   "problems": [
+    "status=needs_human ≠ portal_rejected: 脚本选择器失效（#menu-order-search），且未启用模型兜底：打开销售订单查询页面（菜单）"
+   ],
+   "statuses": [
+    "needs_human"
+   ],
+   "seconds": 1.71,
+   "needs_human": true,
+   "expected_handover": true,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [
+    "脚本选择器失效（#menu-order-search），且未启用模型兜底：打开销售订单查询页面（菜单）"
+   ],
+   "traces": [
+    "runs\\20261118-015530-021-create_sales_order_draft-dc06\\trace.jsonl"
+   ]
+  }
+ ]
+}

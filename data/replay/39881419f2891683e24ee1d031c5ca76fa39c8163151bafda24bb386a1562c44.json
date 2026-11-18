@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "39881419f2891683e24ee1d031c5ca76fa39c8163151bafda24bb386a1562c44",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:33:18+00:00",
+   "usage": {
+    "prompt_tokens": 1132,
+    "completion_tokens": 56,
+    "total_tokens": 1188,
+    "prompt_tokens_details": {
+     "cached_tokens": 896
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 14
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 236
+   },
+   "response": "{\"actions\":[{\"ref\":\"e23\",\"op\":\"fill\",\"value\":\"54\"}],\"reason\":\"第 5 行含税单价输入框是 e23，填入允许值 54。\"}"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "5b63c15d95966d0f1ed9b6e47df8ab2b9d27f3fd979196e8367f1a0ce2fd6947",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:37:27+00:00",
+   "usage": {
+    "prompt_tokens": 647,
+    "completion_tokens": 98,
+    "total_tokens": 745,
+    "prompt_tokens_details": {
+     "cached_tokens": 256
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 391
+   },
+   "response": "{\"lines\":[{\"sku\":\"3.01.0006\",\"qty\":10,\"unit_price\":78.00},{\"sku\":\"6.01.0008\",\"qty\":6,\"unit_price\":19.70},{\"sku\":\"5.01.0014\",\"qty\":3,\"unit_price\":2280.50},{\"sku\":\"1.02.0005\",\"qty\":30,\"unit_price\":57.00}],\"total\":9449.70}"
+  }
+ ]
+}

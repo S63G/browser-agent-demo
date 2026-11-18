@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "c2365326021c57d2814b6cc363c6fdfe7efbb33bf3d9a4dedd33081994935d68",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:33:17+00:00",
+   "usage": {
+    "prompt_tokens": 1129,
+    "completion_tokens": 52,
+    "total_tokens": 1181,
+    "prompt_tokens_details": {
+     "cached_tokens": 896
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 233
+   },
+   "response": "{\"actions\":[{\"ref\":\"e22\",\"op\":\"fill\",\"value\":\"1\"}],\"reason\":\"第 5 行的订货数量输入框是 e22（name:ln5_qty），当前为空，按要求填入允许值 1。\"}"
+  }
+ ]
+}

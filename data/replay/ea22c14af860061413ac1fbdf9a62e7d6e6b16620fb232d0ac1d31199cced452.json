@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "ea22c14af860061413ac1fbdf9a62e7d6e6b16620fb232d0ac1d31199cced452",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:33:20+00:00",
+   "usage": {
+    "prompt_tokens": 1142,
+    "completion_tokens": 34,
+    "total_tokens": 1176,
+    "prompt_tokens_details": {
+     "cached_tokens": 896
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 246
+   },
+   "response": "{\"actions\":[{\"ref\":\"e8\",\"op\":\"click\"}],\"reason\":\"明细已填完，点击“继续 →”进入核对/确认页面。\"}"
+  }
+ ]
+}

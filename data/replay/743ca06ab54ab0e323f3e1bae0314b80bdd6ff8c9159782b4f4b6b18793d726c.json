@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "743ca06ab54ab0e323f3e1bae0314b80bdd6ff8c9159782b4f4b6b18793d726c",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:33:04+00:00",
+   "usage": {
+    "prompt_tokens": 891,
+    "completion_tokens": 41,
+    "total_tokens": 932,
+    "prompt_tokens_details": {
+     "cached_tokens": 640
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 251
+   },
+   "response": "{\"actions\":[{\"ref\":\"e16\",\"op\":\"fill\",\"value\":\"5\"}],\"reason\":\"第 3 行订货数量输入框为 e16，填写允许值 5。\"}"
+  }
+ ]
+}

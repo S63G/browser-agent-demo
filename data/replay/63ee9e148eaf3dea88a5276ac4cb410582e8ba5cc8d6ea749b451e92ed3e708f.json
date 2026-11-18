@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "63ee9e148eaf3dea88a5276ac4cb410582e8ba5cc8d6ea749b451e92ed3e708f",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:59+00:00",
+   "usage": {
+    "prompt_tokens": 2340,
+    "completion_tokens": 57,
+    "total_tokens": 2397,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 14
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 2212
+   },
+   "response": "{\"actions\":[{\"ref\":\"e28\",\"op\":\"fill\",\"value\":\"54\"}],\"reason\":\"第5行含税单价对应输入框 e28（当前为空），填入允许值 54。\"}"
+  }
+ ]
+}

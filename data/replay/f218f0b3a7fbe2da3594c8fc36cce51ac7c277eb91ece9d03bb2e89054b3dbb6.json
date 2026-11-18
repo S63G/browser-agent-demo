@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "f218f0b3a7fbe2da3594c8fc36cce51ac7c277eb91ece9d03bb2e89054b3dbb6",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:18+00:00",
+   "usage": {
+    "prompt_tokens": 732,
+    "completion_tokens": 53,
+    "total_tokens": 785,
+    "prompt_tokens_details": {
+     "cached_tokens": 256
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 18
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 476
+   },
+   "response": "{\"actions\":[],\"reason\":\"页面显示发票状态为“未开具”，没有可点击的下载或打印发票链接/按钮，因此返回空数组。\"}"
+  }
+ ]
+}

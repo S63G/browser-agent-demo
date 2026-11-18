@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "9c9795de56dba11b66ab0d413b30c0f4e452e19f97ce33ee56156c0fcd7c1618",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:33:10+00:00",
+   "usage": {
+    "prompt_tokens": 1009,
+    "completion_tokens": 42,
+    "total_tokens": 1051,
+    "prompt_tokens_details": {
+     "cached_tokens": 768
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 241
+   },
+   "response": "{\"actions\":[{\"ref\":\"e19\",\"op\":\"fill\",\"value\":\"50\"}],\"reason\":\"第 4 行的订货数量输入框为 e19，直接填写允许的值 50。\"}"
+  }
+ ]
+}

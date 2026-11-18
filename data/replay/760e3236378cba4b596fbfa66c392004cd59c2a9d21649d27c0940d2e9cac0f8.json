@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "760e3236378cba4b596fbfa66c392004cd59c2a9d21649d27c0940d2e9cac0f8",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:35:52+00:00",
+   "usage": {
+    "prompt_tokens": 527,
+    "completion_tokens": 97,
+    "total_tokens": 624,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 52
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 399
+   },
+   "response": "{\"actions\":[{\"ref\":\"e3\",\"op\":\"click\"}],\"reason\":\"页面左侧库存管理下的“现存量查询”链接（e3）即为打开现存量查询页面的入口，点击进入。\"}"
+  }
+ ]
+}

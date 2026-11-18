@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "1caba9dee91f3b9e1ecc0b626a7b5942ea564ad9b34877982f09d0af2007d548",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:32:29+00:00",
+   "usage": {
+    "prompt_tokens": 463,
+    "completion_tokens": 67,
+    "total_tokens": 530,
+    "prompt_tokens_details": {
+     "cached_tokens": 256
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 27
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 207
+   },
+   "response": "{\"actions\":[{\"ref\":\"e3\",\"op\":\"click\"}],\"reason\":\"点击导航栏中的“录入销售单”链接即可打开新建销售订单（录入销售单）页面。\"}"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "7185faad5636a33510e2c0920648aa17d5450505d5809560d08ccc593561cdad",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:38:32+00:00",
+   "usage": {
+    "prompt_tokens": 2075,
+    "completion_tokens": 189,
+    "total_tokens": 2264,
+    "prompt_tokens_details": {
+     "cached_tokens": 640
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 131
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 1435
+   },
+   "response": "{\"actions\":[],\"reason\":\"页面明细仅显示第 1~3 行，不存在第 4 行明细（虽有“增行”按钮，但本步骤要求在第 4 行填写，页面当前无该行），故返回空数组。\"}"
+  }
+ ]
+}

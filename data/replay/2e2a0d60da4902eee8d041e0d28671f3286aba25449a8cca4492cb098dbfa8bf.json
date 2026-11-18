@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "2e2a0d60da4902eee8d041e0d28671f3286aba25449a8cca4492cb098dbfa8bf",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:33:31+00:00",
+   "usage": {
+    "prompt_tokens": 842,
+    "completion_tokens": 374,
+    "total_tokens": 1216,
+    "prompt_tokens_details": {
+     "cached_tokens": 640
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 183
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 202
+   },
+   "response": "{\"order_no\":\"XS26110025\",\"customer\":\"甬港澄远机械配件厂\",\"customer_po\":\"YG-2611-0457\",\"order_date\":\"2026-11-02\",\"delivery_date\":\"2026-11-10\",\"status\":\"草稿\",\"remark\":\"[ik-cba596bdba9b] 浏览器Agent录入\",\"total\":8850.0,\"lines\":[{\"sku\":\"7.02.0005\",\"qty\":5,\"unit_price\":26.6},{\"sku\":\"6.01.0004\",\"qty\":20,\"unit_price\":16.9},{\"sku\":\"3.01.0015\",\"qty\":5,\"unit_price\":72.0},{\"sku\":\"4.01.0005\",\"qty\":50,\"unit_price\":159.3},{\"sku\":\"3.01.0009\",\"qty\":1,\"unit_price\":54.0}]}"
+  }
+ ]
+}

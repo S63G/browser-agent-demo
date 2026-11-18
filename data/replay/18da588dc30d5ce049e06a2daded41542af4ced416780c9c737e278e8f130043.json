@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "18da588dc30d5ce049e06a2daded41542af4ced416780c9c737e278e8f130043",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:31:39+00:00",
+   "usage": {
+    "prompt_tokens": 831,
+    "completion_tokens": 301,
+    "total_tokens": 1132,
+    "prompt_tokens_details": {
+     "cached_tokens": 640
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 234
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 191
+   },
+   "response": "{\"actions\":[{\"ref\":\"e10\",\"op\":\"select\",\"value\":\"苏州晨岚汇自动化设备有限公司（C004）\"}],\"reason\":\"客户编码 C004 对应下拉框中的“苏州晨岚汇自动化设备有限公司（C004）”，在客户名称下拉框中选择该项即可完成客户条件填写。\"}"
+  }
+ ]
+}

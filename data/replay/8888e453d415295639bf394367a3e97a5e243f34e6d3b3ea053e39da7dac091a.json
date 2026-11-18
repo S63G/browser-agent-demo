@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "8888e453d415295639bf394367a3e97a5e243f34e6d3b3ea053e39da7dac091a",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:35:56+00:00",
+   "usage": {
+    "prompt_tokens": 543,
+    "completion_tokens": 65,
+    "total_tokens": 608,
+    "prompt_tokens_details": {
+     "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 159
+   },
+   "response": "{\"found\": true, \"items\": [{\"sku\": \"4.01.0013\", \"name\": \"标准气缸\", \"spec\": \"SC63×50\", \"unit\": \"件\", \"on_hand\": 394, \"available\": 349, \"status\": \"否\"}]}"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "dca8364b74225489851f5432f09dfafe1c73960f5258d4d10af56290dd514314",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:33:06+00:00",
+   "usage": {
+    "prompt_tokens": 917,
+    "completion_tokens": 78,
+    "total_tokens": 995,
+    "prompt_tokens_details": {
+     "cached_tokens": 768
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 18
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 149
+   },
+   "response": "{\"actions\":[],\"reason\":\"页面商品明细只有第 1、2、3 行，没有第 4 行，无法填写第 4 行物料编码（存货编码）；需先点击“+ 新增一行”才能出现第 4 行。\"}"
+  }
+ ]
+}

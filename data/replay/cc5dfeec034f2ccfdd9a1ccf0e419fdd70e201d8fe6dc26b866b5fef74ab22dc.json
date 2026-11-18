@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "cc5dfeec034f2ccfdd9a1ccf0e419fdd70e201d8fe6dc26b866b5fef74ab22dc",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:32:57+00:00",
+   "usage": {
+    "prompt_tokens": 876,
+    "completion_tokens": 46,
+    "total_tokens": 922,
+    "prompt_tokens_details": {
+     "cached_tokens": 640
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 236
+   },
+   "response": "{\"actions\":[{\"ref\":\"e11\",\"op\":\"fill\",\"value\":\"26.6\"}],\"reason\":\"第 1 行含税单价输入框为 e11，填入允许值 26.6。\"}"
+  }
+ ]
+}

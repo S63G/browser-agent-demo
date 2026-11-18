@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "106f1b09f644ff51b203abf7c44120423b26289a89dc548738285631d5a81a87",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:36+00:00",
+   "usage": {
+    "prompt_tokens": 2025,
+    "completion_tokens": 52,
+    "total_tokens": 2077,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 11
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1897
+   },
+   "response": "{\"actions\":[{\"ref\":\"e15\",\"op\":\"fill\",\"value\":\"5\"}],\"reason\":\"第 1 行明细的数量输入框是 e15，填入允许值 5。\"}"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "5837386ba285d30bdb2b7beac9338eb2c8eb9bfea4f7e3adca5c34f43a1d86f7",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:55+00:00",
+   "usage": {
+    "prompt_tokens": 2218,
+    "completion_tokens": 224,
+    "total_tokens": 2442,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 179
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 2090
+   },
+   "response": "{\"actions\":[],\"reason\":\"当前明细表只有第1至第4行（e14-e25），页面上没有第5行的存货编码输入框，因此无法填写第5行物料编码。\"}"
+  }
+ ]
+}

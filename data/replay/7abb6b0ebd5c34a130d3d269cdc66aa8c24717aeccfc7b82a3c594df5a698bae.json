@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "7abb6b0ebd5c34a130d3d269cdc66aa8c24717aeccfc7b82a3c594df5a698bae",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:38:45+00:00",
+   "usage": {
+    "prompt_tokens": 2041,
+    "completion_tokens": 139,
+    "total_tokens": 2180,
+    "prompt_tokens_details": {
+     "cached_tokens": 640
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 85
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 1401
+   },
+   "response": "{\"actions\":[],\"reason\":\"明细录入表格（存货编码/数量/含税单价，e14-e22）已直接显示在本页，页面没有“进入下一步/填写明细”之类的跳转按钮，因此按规则返回空数组。\"}"
+  }
+ ]
+}

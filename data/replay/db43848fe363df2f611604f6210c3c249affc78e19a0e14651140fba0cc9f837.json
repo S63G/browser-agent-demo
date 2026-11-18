@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "db43848fe363df2f611604f6210c3c249affc78e19a0e14651140fba0cc9f837",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:32:15+00:00",
+   "usage": {
+    "prompt_tokens": 770,
+    "completion_tokens": 325,
+    "total_tokens": 1095,
+    "prompt_tokens_details": {
+     "cached_tokens": 636
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 158
+    },
+    "prompt_cache_hit_tokens": 636,
+    "prompt_cache_miss_tokens": 134
+   },
+   "response": "{\"order_no\": \"XS26100003\", \"customer\": \"合肥北辰栖建安工程有限公司\", \"customer_po\": \"BCQ-261008\", \"order_date\": \"2026-10-08\", \"delivery_date\": \"2026-10-15\", \"status\": \"已开票\", \"remark\": \"\", \"total\": 6645.00, \"lines\": [{\"sku\": \"1.01.0024\", \"qty\": 12, \"unit_price\": 5.00}, {\"sku\": \"2.02.0004\", \"qty\": 10, \"unit_price\": 629.00}, {\"sku\": \"3.01.0005\", \"qty\": 5, \"unit_price\": 59.00}]}"
+  }
+ ]
+}

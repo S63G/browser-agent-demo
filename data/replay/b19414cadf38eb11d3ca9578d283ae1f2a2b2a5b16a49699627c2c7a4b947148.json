@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "b19414cadf38eb11d3ca9578d283ae1f2a2b2a5b16a49699627c2c7a4b947148",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:35:30+00:00",
+   "usage": {
+    "prompt_tokens": 802,
+    "completion_tokens": 90,
+    "total_tokens": 892,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 28
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 674
+   },
+   "response": "{\"actions\":[{\"ref\":\"e6\",\"op\":\"fill\",\"value\":\"KMS-PO-7745\"}],\"reason\":\"客户订单号输入框是 e6，对应“客户的采购单号（客户订单号）”查询条件，填入允许值 KMS-PO-7745。\"}"
+  }
+ ]
+}

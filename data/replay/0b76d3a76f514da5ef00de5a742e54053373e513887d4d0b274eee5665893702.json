@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "0b76d3a76f514da5ef00de5a742e54053373e513887d4d0b274eee5665893702",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:31:30+00:00",
+   "usage": {
+    "prompt_tokens": 843,
+    "completion_tokens": 84,
+    "total_tokens": 927,
+    "prompt_tokens_details": {
+     "cached_tokens": 640
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 26
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 203
+   },
+   "response": "{\"actions\":[{\"ref\":\"e9\",\"op\":\"fill\",\"value\":\"KMS-PO-7745\"}],\"reason\":\"查询条件中的“采购单号”对应输入框 e9（name=po），填入客户单号 KMS-PO-7745。\"}"
+  }
+ ]
+}

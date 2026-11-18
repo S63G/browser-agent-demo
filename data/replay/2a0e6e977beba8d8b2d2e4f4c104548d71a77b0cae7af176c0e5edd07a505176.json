@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "2a0e6e977beba8d8b2d2e4f4c104548d71a77b0cae7af176c0e5edd07a505176",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:32+00:00",
+   "usage": {
+    "prompt_tokens": 2011,
+    "completion_tokens": 46,
+    "total_tokens": 2057,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1883
+   },
+   "response": "{\"actions\":[{\"ref\":\"e13\",\"op\":\"fill\",\"value\":\"[ik-cba596bdba9b] 浏览器Agent录入\"}],\"reason\":\"备注输入框为 e13，填入允许的值。\"}"
+  }
+ ]
+}

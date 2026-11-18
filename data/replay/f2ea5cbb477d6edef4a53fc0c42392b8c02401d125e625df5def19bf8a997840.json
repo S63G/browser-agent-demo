@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "f2ea5cbb477d6edef4a53fc0c42392b8c02401d125e625df5def19bf8a997840",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:38+00:00",
+   "usage": {
+    "prompt_tokens": 2030,
+    "completion_tokens": 80,
+    "total_tokens": 2110,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 15
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1902
+   },
+   "response": "{\"actions\":[{\"ref\":\"e16\",\"op\":\"fill\",\"value\":\"26.6\"}],\"reason\":\"第 1 行明细中的含税单价输入框是 e16（name 以 gvLines$ctl01$txtPrice 结尾），允许值为 26.6，直接填入。\"}"
+  }
+ ]
+}

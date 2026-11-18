@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "d2cb2e95b7aa47e24ca0bccd596ab70a116e9855d18884dd5c838447e0baccc3",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:32:23+00:00",
+   "usage": {
+    "prompt_tokens": 760,
+    "completion_tokens": 135,
+    "total_tokens": 895,
+    "prompt_tokens_details": {
+     "cached_tokens": 512
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 248
+   },
+   "response": "{\"order_no\":\"XS26100016\",\"customer\":\"苏州晨岚汇自动化设备有限公司\",\"customer_po\":\"CL-PO-20261027\",\"order_date\":\"2026-10-27\",\"delivery_date\":\"2026-11-01\",\"status\":\"已发货\",\"remark\":\"\",\"total\":4944.80,\"lines\":[{\"sku\":\"1.03.0014\",\"qty\":50,\"unit_price\":21.20},{\"sku\":\"1.03.0013\",\"qty\":6,\"unit_price\":20.80},{\"sku\":\"4.01.0004\",\"qty\":20,\"unit_price\":188.00}]}"
+  }
+ ]
+}

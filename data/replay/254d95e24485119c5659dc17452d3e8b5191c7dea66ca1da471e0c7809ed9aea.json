@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "254d95e24485119c5659dc17452d3e8b5191c7dea66ca1da471e0c7809ed9aea",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:32:51+00:00",
+   "usage": {
+    "prompt_tokens": 856,
+    "completion_tokens": 66,
+    "total_tokens": 922,
+    "prompt_tokens_details": {
+     "cached_tokens": 640
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 216
+   },
+   "response": "{\"actions\":[{\"ref\":\"e11\",\"op\":\"fill\",\"value\":\"[ik-cba596bdba9b] 浏览器Agent录入\"}],\"reason\":\"备注字段对应 textarea（name=memo，当前为空），填入允许值 [ik-cba596bdba9b] 浏览器Agent录入。\"}"
+  }
+ ]
+}

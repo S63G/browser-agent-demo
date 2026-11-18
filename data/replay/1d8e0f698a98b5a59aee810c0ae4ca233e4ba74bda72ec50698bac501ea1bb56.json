@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "1d8e0f698a98b5a59aee810c0ae4ca233e4ba74bda72ec50698bac501ea1bb56",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:38:27+00:00",
+   "usage": {
+    "prompt_tokens": 2039,
+    "completion_tokens": 118,
+    "total_tokens": 2157,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 45
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1911
+   },
+   "response": "{\"actions\":[{\"ref\":\"e10\",\"op\":\"select\",\"value\":\"2026\"},{\"ref\":\"e11\",\"op\":\"select\",\"value\":\"11\"},{\"ref\":\"e12\",\"op\":\"select\",\"value\":\"20\"}],\"reason\":\"交货日期为三个下拉框，分别选择年 2026、月 11、日 20。\"}"
+  }
+ ]
+}

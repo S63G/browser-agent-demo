@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "5a99955594d06fb4174c2fd0a492162e147b4695fea3f8932747476b7f743ba9",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:44+00:00",
+   "usage": {
+    "prompt_tokens": 2045,
+    "completion_tokens": 73,
+    "total_tokens": 2118,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 12
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1917
+   },
+   "response": "{\"actions\":[{\"ref\":\"e21\",\"op\":\"fill\",\"value\":\"5\"}],\"reason\":\"第 3 行明细的数量输入框是 e21（ctl00$cph$gvLines$ctl03$txtQty），当前为空，填入允许值 5。\"}"
+  }
+ ]
+}

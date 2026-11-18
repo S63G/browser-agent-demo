@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "9f1d123dcc3cff8bccaf215efd4088a9cd0beab3801f8fa4c66ddc37fb1bd819",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:32:49+00:00",
+   "usage": {
+    "prompt_tokens": 879,
+    "completion_tokens": 103,
+    "total_tokens": 982,
+    "prompt_tokens_details": {
+     "cached_tokens": 640
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 49
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 239
+   },
+   "response": "{\"actions\":[{\"ref\":\"e10\",\"op\":\"fill\",\"value\":\"2026-11-10\"}],\"reason\":\"“要求到货日”对应输入框 e10，当前为空，按允许的值填入 2026-11-10。\"}"
+  }
+ ]
+}

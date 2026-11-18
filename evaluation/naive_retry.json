@@ -1,0 +1,63 @@
+{
+ "config": "naive_retry",
+ "title": "对照：超时后不核实直接重试",
+ "mode": "scripted",
+ "llm_mode": "off",
+ "model": null,
+ "summary": {
+  "all": {
+   "tasks": 1,
+   "success": 0,
+   "mean_seconds": 10.6,
+   "median_seconds": 10.6,
+   "needs_human": 0,
+   "needs_human_unexpected": 0,
+   "model_steps": 0,
+   "model_calls": 0,
+   "tasks_using_model": 0
+  },
+  "by_layout": {
+   "v1": {
+    "tasks": 1,
+    "success": 0,
+    "mean_seconds": 10.6,
+    "median_seconds": 10.6,
+    "needs_human": 0,
+    "needs_human_unexpected": 0,
+    "model_steps": 0,
+    "model_calls": 0,
+    "tasks_using_model": 0
+   }
+  },
+  "duplicate_orders": 1,
+  "usage": null
+ },
+ "tasks": [
+  {
+   "id": "T08",
+   "layout": "v1",
+   "kind": "create_timeout",
+   "title": "提交后门户响应超时（故障注入 8 秒）：先核实再决定是否重试",
+   "success": false,
+   "problems": [
+    "门户里带此幂等键的订单有 2 张（应为 1）"
+   ],
+   "statuses": [
+    "created"
+   ],
+   "seconds": 10.64,
+   "needs_human": false,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 59,
+   "messages": [
+    "已提交并在门户中核实"
+   ],
+   "traces": [
+    "runs\\20261118-015847-063-create_sales_order_draft-83d5\\trace.jsonl"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "0e2d5679f9dc7788e96608751252c0316e966e101e2a289914608e58e6bf829e",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:43+00:00",
+   "usage": {
+    "prompt_tokens": 2063,
+    "completion_tokens": 76,
+    "total_tokens": 2139,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 18
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1935
+   },
+   "response": "{\"actions\":[{\"ref\":\"e20\",\"op\":\"fill\",\"value\":\"3.01.0015\"}],\"reason\":\"第 3 行明细的存货编码输入框是 e20，当前为空，填入允许的物料编码 3.01.0015。\"}"
+  }
+ ]
+}

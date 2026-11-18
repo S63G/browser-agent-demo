@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "7d3567bbdbcaa5762c86efe87b013ed2d9d3d03030bf879db840bbb63d52ccd9",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:31:49+00:00",
+   "usage": {
+    "prompt_tokens": 1163,
+    "completion_tokens": 137,
+    "total_tokens": 1300,
+    "prompt_tokens_details": {
+     "cached_tokens": 896
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 93
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 267
+   },
+   "response": "{\"actions\":[{\"ref\":\"e24\",\"op\":\"click\"}],\"reason\":\"分页区域有“›”下一页链接（e24），当前不是最后一页，点击它翻到查询结果的下一页。\"}"
+  }
+ ]
+}

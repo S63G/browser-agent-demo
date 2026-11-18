@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "c313183b970d871af061763fd9c2a4fe5f8ef09d6c1fdd93bb71656bc6c3375a",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:37:44+00:00",
+   "usage": {
+    "prompt_tokens": 2039,
+    "completion_tokens": 105,
+    "total_tokens": 2144,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 17
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1911
+   },
+   "response": "{\"actions\":[{\"ref\":\"e7\",\"op\":\"select\",\"value\":\"2026\"},{\"ref\":\"e8\",\"op\":\"select\",\"value\":\"11\"},{\"ref\":\"e9\",\"op\":\"select\",\"value\":\"13\"}],\"reason\":\"单据日期为 2026-11-13，页面把单据日期拆成三个下拉框（年/月/日），分别选择 2026、11、13。\"}"
+  }
+ ]
+}

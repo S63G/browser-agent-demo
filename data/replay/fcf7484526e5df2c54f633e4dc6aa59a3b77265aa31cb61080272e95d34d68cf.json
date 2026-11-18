@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "fcf7484526e5df2c54f633e4dc6aa59a3b77265aa31cb61080272e95d34d68cf",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:35+00:00",
+   "usage": {
+    "prompt_tokens": 2043,
+    "completion_tokens": 72,
+    "total_tokens": 2115,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 19
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1915
+   },
+   "response": "{\"actions\":[{\"ref\":\"e14\",\"op\":\"fill\",\"value\":\"7.02.0005\"}],\"reason\":\"第 1 行明细的存货编码输入框为 e14，填入允许值 7.02.0005。\"}"
+  }
+ ]
+}

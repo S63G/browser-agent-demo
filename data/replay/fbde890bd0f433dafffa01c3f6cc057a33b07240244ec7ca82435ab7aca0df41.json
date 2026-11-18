@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "fbde890bd0f433dafffa01c3f6cc057a33b07240244ec7ca82435ab7aca0df41",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:31:57+00:00",
+   "usage": {
+    "prompt_tokens": 501,
+    "completion_tokens": 49,
+    "total_tokens": 550,
+    "prompt_tokens_details": {
+     "cached_tokens": 256
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 245
+   },
+   "response": "{\"actions\":[{\"ref\":\"e6\",\"op\":\"fill\",\"value\":\"4.01.0013\"}],\"reason\":\"在存货编码/名称输入框 e6 中填写物料编码 4.01.0013。\"}"
+  }
+ ]
+}

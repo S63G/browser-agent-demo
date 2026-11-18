@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "aa5e25ec04bc02b40c7fd2425b0c8d47c88c889d74eb10b6a2730557e4655e66",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:34:47+00:00",
+   "usage": {
+    "prompt_tokens": 917,
+    "completion_tokens": 113,
+    "total_tokens": 1030,
+    "prompt_tokens_details": {
+     "cached_tokens": 768
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 59
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 149
+   },
+   "response": "{\"actions\":[],\"reason\":\"页面明细只有第 1、2、3 行（e9-e17），没有第 4 行的存货编码输入框，无法直接填写第 4 行；按要求 actions 返回空数组。\"}"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "legacy-portal": {
+      "command": "python",
+      "args": ["-m", "browser_agent", "mcp"],
+      "cwd": "C:/path/to/browser_agent_demo",
+      "env": {
+        "PYTHONPATH": "C:/path/to/browser_agent_demo",
+        "PORTAL_URL": "http://127.0.0.1:8770",
+        "LLM_API_KEY": "",
+        "APPROVAL_PORT": "8771"
+      }
+    }
+  }
+}

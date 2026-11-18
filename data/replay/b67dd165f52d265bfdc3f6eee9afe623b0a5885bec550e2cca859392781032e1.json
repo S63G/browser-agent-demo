@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "b67dd165f52d265bfdc3f6eee9afe623b0a5885bec550e2cca859392781032e1",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:52+00:00",
+   "usage": {
+    "prompt_tokens": 2190,
+    "completion_tokens": 66,
+    "total_tokens": 2256,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 14
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 2062
+   },
+   "response": "{\"actions\":[{\"ref\":\"e24\",\"op\":\"fill\",\"value\":\"50\"}],\"reason\":\"第 4 行明细的数量输入框是 e24（name 结尾 ctl04$txtQty），填入允许值 50。\"}"
+  }
+ ]
+}

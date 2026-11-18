@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "a05c5b8d27f4739cafd81b598f8e7a09c7ca32edde7eeb8e4f5d934f5050150b",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:45+00:00",
+   "usage": {
+    "prompt_tokens": 2048,
+    "completion_tokens": 63,
+    "total_tokens": 2111,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 15
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1920
+   },
+   "response": "{\"actions\":[{\"ref\":\"e22\",\"op\":\"fill\",\"value\":\"72\"}],\"reason\":\"第 3 行明细的含税单价输入框是 e22，当前为空，按允许的值填入 72。\"}"
+  }
+ ]
+}

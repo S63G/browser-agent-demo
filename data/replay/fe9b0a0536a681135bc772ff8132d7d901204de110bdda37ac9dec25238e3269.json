@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "fe9b0a0536a681135bc772ff8132d7d901204de110bdda37ac9dec25238e3269",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:33:12+00:00",
+   "usage": {
+    "prompt_tokens": 1014,
+    "completion_tokens": 46,
+    "total_tokens": 1060,
+    "prompt_tokens_details": {
+     "cached_tokens": 768
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 246
+   },
+   "response": "{\"actions\":[{\"ref\":\"e20\",\"op\":\"fill\",\"value\":\"159.3\"}],\"reason\":\"第 4 行含税单价输入框为 e20，填入允许值 159.3。\"}"
+  }
+ ]
+}

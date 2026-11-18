@@ -1,0 +1,623 @@
+{
+ "note": "T01–T10 run on layout v1, T11–T20 on layout v2; T11–T20 are re-run on the hold-out layout v3.",
+ "generator": "tools/make_data.py",
+ "tasks": [
+  {
+   "id": "T01",
+   "layout": "v1",
+   "kind": "search_po",
+   "title": "按客户单号查单",
+   "tool": "search_order",
+   "args": {
+    "customer_po": "YG-2610-0398"
+   },
+   "expect": {
+    "order_nos": [
+     "XS26100009"
+    ]
+   }
+  },
+  {
+   "id": "T02",
+   "layout": "v1",
+   "kind": "search_paged",
+   "title": "按客户 + 日期范围查单（结果跨两页）",
+   "tool": "search_order",
+   "args": {
+    "customer_id": "C001",
+    "date_from": "2026-10-01",
+    "date_to": "2026-11-15"
+   },
+   "expect": {
+    "order_nos": [
+     "XS26100001",
+     "XS26100004",
+     "XS26100006",
+     "XS26100008",
+     "XS26100012",
+     "XS26100015",
+     "XS26100020",
+     "XS26100024",
+     "XS26110002",
+     "XS26110004",
+     "XS26110006",
+     "XS26110014",
+     "XS26110019"
+    ]
+   }
+  },
+  {
+   "id": "T03",
+   "layout": "v1",
+   "kind": "stock",
+   "title": "查 3 个料号的可用库存（含 1 个不存在的料号）",
+   "tool": "check_stock",
+   "args": {
+    "skus": [
+     "1.01.0003",
+     "3.01.0019",
+     "9.99.9999"
+    ]
+   },
+   "expect": {
+    "found": {
+     "1.01.0003": 12,
+     "3.01.0019": 21
+    },
+    "not_found": [
+     "9.99.9999"
+    ]
+   }
+  },
+  {
+   "id": "T04",
+   "layout": "v1",
+   "kind": "invoice",
+   "title": "下载已开票订单的发票 PDF",
+   "tool": "download_invoice",
+   "args": {
+    "order_no": "XS26100013"
+   },
+   "expect": {
+    "status": "ok",
+    "invoice_no": "FP261000013",
+    "issue_date": "2026-10-28",
+    "amount": 939.6
+   }
+  },
+  {
+   "id": "T05",
+   "layout": "v1",
+   "kind": "invoice_none",
+   "title": "未开票订单：应如实返回“无发票”",
+   "tool": "download_invoice",
+   "args": {
+    "order_no": "XS26100023"
+   },
+   "expect": {
+    "status": "no_invoice"
+   }
+  },
+  {
+   "id": "T06",
+   "layout": "v1",
+   "kind": "create_twice",
+   "title": "录入 Demo A 订单，再用同一幂等键调用一次",
+   "tool": "create_sales_order_draft",
+   "args": {
+    "order": {
+     "customer_id": "C001",
+     "customer_name": "沪东衡砺设备维修有限公司",
+     "customer_po": "HL-PO-261102-01",
+     "order_date": "2026-11-02",
+     "delivery_date": "2026-11-12",
+     "lines": [
+      {
+       "sku": "4.01.0013",
+       "qty": 12,
+       "unit_price": 197.9
+      },
+      {
+       "sku": "5.01.0014",
+       "qty": 4,
+       "unit_price": 2375.5
+      },
+      {
+       "sku": "3.01.0019",
+       "qty": 3,
+       "unit_price": 78.0
+      },
+      {
+       "sku": "5.01.0010",
+       "qty": 1,
+       "unit_price": 1447.6
+      }
+     ],
+     "source": "Demo A: 20261102-0912_po_HL-PO-261102-01.eml"
+    }
+   },
+   "expect": {
+    "status": "created",
+    "second_status": "already_exists"
+   }
+  },
+  {
+   "id": "T07",
+   "layout": "v1",
+   "kind": "create_lines",
+   "title": "录入多行订单（含箱装物料）",
+   "tool": "create_sales_order_draft",
+   "args": {
+    "order": {
+     "customer_id": "C001",
+     "customer_name": "沪东衡砺设备维修有限公司",
+     "customer_po": "HL-PO-261112-01",
+     "order_date": "2026-11-12",
+     "delivery_date": "2026-11-19",
+     "lines": [
+      {
+       "sku": "1.02.0006",
+       "qty": 12,
+       "unit_price": 56.9
+      },
+      {
+       "sku": "8.04.0003",
+       "qty": 50,
+       "unit_price": 6.4
+      },
+      {
+       "sku": "3.01.0011",
+       "qty": 3,
+       "unit_price": 72.0
+      },
+      {
+       "sku": "3.01.0004",
+       "qty": 3,
+       "unit_price": 51.0
+      }
+     ],
+     "source": "Demo A: 20261112-0910_po_HL-PO-261112-01.eml"
+    }
+   },
+   "expect": {
+    "status": "created"
+   }
+  },
+  {
+   "id": "T08",
+   "layout": "v1",
+   "kind": "create_timeout",
+   "title": "提交后门户响应超时（故障注入 8 秒）：先核实再决定是否重试",
+   "tool": "create_sales_order_draft",
+   "args": {
+    "order": {
+     "customer_id": "C006",
+     "customer_name": "Kestrelmoor Marine Supplies Pte Ltd",
+     "customer_po": "KMS-PO-7781",
+     "order_date": "2026-11-03",
+     "delivery_date": "2026-11-17",
+     "lines": [
+      {
+       "sku": "1.03.0013",
+       "qty": 6,
+       "unit_price": 21.3
+      },
+      {
+       "sku": "3.01.0004",
+       "qty": 1,
+       "unit_price": 48.0
+      },
+      {
+       "sku": "9.01.0008",
+       "qty": 5,
+       "unit_price": 142.1
+      },
+      {
+       "sku": "6.01.0015",
+       "qty": 6,
+       "unit_price": 23.7
+      }
+     ],
+     "source": "Demo A: 20261103-1540_KMS-PO-7781.pdf"
+    }
+   },
+   "expect": {
+    "status": "created",
+    "inject_submit_delay": 8
+   }
+  },
+  {
+   "id": "T09",
+   "layout": "v1",
+   "kind": "create_rejected",
+   "title": "审批人驳回：不得提交",
+   "tool": "create_sales_order_draft",
+   "args": {
+    "order": {
+     "customer_id": "C007",
+     "customer_name": "佛山顺达屿五金商行",
+     "customer_po": "SD-1104",
+     "order_date": "2026-11-04",
+     "delivery_date": "2026-11-11",
+     "lines": [
+      {
+       "sku": "1.03.0012",
+       "qty": 20,
+       "unit_price": 21.6
+      },
+      {
+       "sku": "1.01.0025",
+       "qty": 6,
+       "unit_price": 8.0
+      },
+      {
+       "sku": "9.02.0005",
+       "qty": 30,
+       "unit_price": 1.2
+      }
+     ],
+     "source": "Demo A: 20261104-0905_shunda_SD-1104.eml"
+    }
+   },
+   "expect": {
+    "status": "rejected",
+    "approver": "reject"
+   }
+  },
+  {
+   "id": "T10",
+   "layout": "v1",
+   "kind": "create_inactive",
+   "title": "订单含停用物料：门户报错，转人工",
+   "tool": "create_sales_order_draft",
+   "args": {
+    "order": {
+     "customer_id": "C006",
+     "customer_name": "Kestrelmoor Marine Supplies Pte Ltd",
+     "customer_po": "KMS-PO-7802",
+     "order_date": "2026-11-12",
+     "delivery_date": "2026-11-24",
+     "lines": [
+      {
+       "sku": "4.01.0013",
+       "qty": 4,
+       "unit_price": 208.3
+      },
+      {
+       "sku": "1.02.0007",
+       "qty": 50,
+       "unit_price": 73.9
+      },
+      {
+       "sku": "8.04.0005",
+       "qty": 6,
+       "unit_price": 6.4
+      },
+      {
+       "sku": "1.01.0028",
+       "qty": 12,
+       "unit_price": 9.5
+      }
+     ],
+     "source": "Demo A: 20261112-1140_KMS-PO-7802.pdf"
+    }
+   },
+   "expect": {
+    "status": "portal_rejected"
+   }
+  },
+  {
+   "id": "T11",
+   "layout": "v2",
+   "kind": "search_po",
+   "title": "按客户单号查单",
+   "tool": "search_order",
+   "args": {
+    "customer_po": "KMS-PO-7745"
+   },
+   "expect": {
+    "order_nos": [
+     "XS26100019"
+    ]
+   }
+  },
+  {
+   "id": "T12",
+   "layout": "v2",
+   "kind": "search_paged",
+   "title": "按客户 + 日期范围查单（结果跨两页）",
+   "tool": "search_order",
+   "args": {
+    "customer_id": "C004",
+    "date_from": "2026-10-01",
+    "date_to": "2026-11-15"
+   },
+   "expect": {
+    "order_nos": [
+     "XS26100002",
+     "XS26100007",
+     "XS26100010",
+     "XS26100014",
+     "XS26100016",
+     "XS26100018",
+     "XS26100022",
+     "XS26110001",
+     "XS26110007",
+     "XS26110011",
+     "XS26110016",
+     "XS26110021"
+    ]
+   }
+  },
+  {
+   "id": "T13",
+   "layout": "v2",
+   "kind": "stock",
+   "title": "查 3 个料号的可用库存（含 1 个不存在的料号）",
+   "tool": "check_stock",
+   "args": {
+    "skus": [
+     "4.01.0013",
+     "7.02.0005",
+     "1.01.0999"
+    ]
+   },
+   "expect": {
+    "found": {
+     "4.01.0013": 349,
+     "7.02.0005": 56
+    },
+    "not_found": [
+     "1.01.0999"
+    ]
+   }
+  },
+  {
+   "id": "T14",
+   "layout": "v2",
+   "kind": "invoice",
+   "title": "下载已开票订单的发票 PDF",
+   "tool": "download_invoice",
+   "args": {
+    "order_no": "XS26100003"
+   },
+   "expect": {
+    "status": "ok",
+    "invoice_no": "FP261000003",
+    "issue_date": "2026-10-15",
+    "amount": 6645.0
+   }
+  },
+  {
+   "id": "T15",
+   "layout": "v2",
+   "kind": "invoice_none",
+   "title": "未开票订单：应如实返回“无发票”",
+   "tool": "download_invoice",
+   "args": {
+    "order_no": "XS26100016"
+   },
+   "expect": {
+    "status": "no_invoice"
+   }
+  },
+  {
+   "id": "T16",
+   "layout": "v2",
+   "kind": "create_twice",
+   "title": "录入 Demo A 订单，再用同一幂等键调用一次",
+   "tool": "create_sales_order_draft",
+   "args": {
+    "order": {
+     "customer_id": "C002",
+     "customer_name": "甬港澄远机械配件厂",
+     "customer_po": "YG-2611-0457",
+     "order_date": "2026-11-02",
+     "delivery_date": "2026-11-10",
+     "lines": [
+      {
+       "sku": "7.02.0005",
+       "qty": 5,
+       "unit_price": 26.6
+      },
+      {
+       "sku": "6.01.0004",
+       "qty": 20,
+       "unit_price": 16.9
+      },
+      {
+       "sku": "3.01.0015",
+       "qty": 5,
+       "unit_price": 72.0
+      },
+      {
+       "sku": "4.01.0005",
+       "qty": 50,
+       "unit_price": 159.3
+      },
+      {
+       "sku": "3.01.0009",
+       "qty": 1,
+       "unit_price": 54.0
+      }
+     ],
+     "source": "Demo A: 20261102-1030_YG-2611-0457.pdf"
+    }
+   },
+   "expect": {
+    "status": "created",
+    "second_status": "already_exists"
+   }
+  },
+  {
+   "id": "T17",
+   "layout": "v2",
+   "kind": "create_lines",
+   "title": "录入多行订单（含箱装物料）",
+   "tool": "create_sales_order_draft",
+   "args": {
+    "order": {
+     "customer_id": "C003",
+     "customer_name": "Pacific Rimstone Tooling Ltd",
+     "customer_po": "PRT-55012",
+     "order_date": "2026-11-02",
+     "delivery_date": "2026-11-16",
+     "lines": [
+      {
+       "sku": "3.01.0006",
+       "qty": 10,
+       "unit_price": 78.0
+      },
+      {
+       "sku": "6.01.0008",
+       "qty": 6,
+       "unit_price": 19.7
+      },
+      {
+       "sku": "5.01.0014",
+       "qty": 3,
+       "unit_price": 2280.5
+      },
+      {
+       "sku": "1.02.0005",
+       "qty": 30,
+       "unit_price": 57.0
+      }
+     ],
+     "source": "Demo A: 20261102-1405_po_PRT-55012.eml"
+    }
+   },
+   "expect": {
+    "status": "created"
+   }
+  },
+  {
+   "id": "T18",
+   "layout": "v2",
+   "kind": "create_timeout",
+   "title": "提交后门户响应超时（故障注入 8 秒）：先核实再决定是否重试",
+   "tool": "create_sales_order_draft",
+   "args": {
+    "order": {
+     "customer_id": "C001",
+     "customer_name": "沪东衡砺设备维修有限公司",
+     "customer_po": "HL-PO-261113-01",
+     "order_date": "2026-11-13",
+     "delivery_date": "2026-11-23",
+     "lines": [
+      {
+       "sku": "8.02.0008",
+       "qty": 10,
+       "unit_price": 21.5
+      },
+      {
+       "sku": "2.01.0005",
+       "qty": 3,
+       "unit_price": 216.7
+      },
+      {
+       "sku": "4.02.0002",
+       "qty": 2,
+       "unit_price": 100.0
+      },
+      {
+       "sku": "8.03.0003",
+       "qty": 12,
+       "unit_price": 12.2
+      }
+     ],
+     "source": "Demo A: 20261113-0920_po_HL-PO-261113-01.eml"
+    }
+   },
+   "expect": {
+    "status": "created",
+    "inject_submit_delay": 8
+   }
+  },
+  {
+   "id": "T19",
+   "layout": "v2",
+   "kind": "create_rejected",
+   "title": "审批人驳回：不得提交",
+   "tool": "create_sales_order_draft",
+   "args": {
+    "order": {
+     "customer_id": "C008",
+     "customer_name": "温州砺芯电气成套有限公司",
+     "customer_po": "LX-2611-033",
+     "order_date": "2026-11-12",
+     "delivery_date": "2026-11-20",
+     "lines": [
+      {
+       "sku": "9.01.0002",
+       "qty": 12,
+       "unit_price": 90.3
+      },
+      {
+       "sku": "4.02.0008",
+       "qty": 8,
+       "unit_price": 173.9
+      },
+      {
+       "sku": "5.01.0011",
+       "qty": 4,
+       "unit_price": 1769.4
+      },
+      {
+       "sku": "8.03.0003",
+       "qty": 12,
+       "unit_price": 12.2
+      }
+     ],
+     "source": "Demo A: 20261112-1500_po_LX-2611-033.eml"
+    }
+   },
+   "expect": {
+    "status": "rejected",
+    "approver": "reject"
+   }
+  },
+  {
+   "id": "T20",
+   "layout": "v2",
+   "kind": "create_inactive",
+   "title": "订单含停用物料：门户报错，转人工",
+   "tool": "create_sales_order_draft",
+   "args": {
+    "order": {
+     "customer_id": "C003",
+     "customer_name": "Pacific Rimstone Tooling Ltd",
+     "customer_po": "PRT-55071",
+     "order_date": "2026-11-13",
+     "delivery_date": "2026-11-25",
+     "lines": [
+      {
+       "sku": "5.02.0002",
+       "qty": 4,
+       "unit_price": 878.4
+      },
+      {
+       "sku": "3.01.0016",
+       "qty": 10,
+       "unit_price": 86.0
+      },
+      {
+       "sku": "8.03.0003",
+       "qty": 100,
+       "unit_price": 12.3
+      },
+      {
+       "sku": "6.02.0009",
+       "qty": 3,
+       "unit_price": 9.0
+      }
+     ],
+     "source": "Demo A: 20261113-1430_po_PRT-55071.eml"
+    }
+   },
+   "expect": {
+    "status": "portal_rejected"
+   }
+  }
+ ]
+}

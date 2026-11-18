@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "3adb5665e152c99c43bd82e1dc18ca72b23b9ef0db085ab89c00a6f3d845ebb4",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:32:59+00:00",
+   "usage": {
+    "prompt_tokens": 881,
+    "completion_tokens": 62,
+    "total_tokens": 943,
+    "prompt_tokens_details": {
+     "cached_tokens": 640
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 13
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 241
+   },
+   "response": "{\"actions\":[{\"ref\":\"e13\",\"op\":\"fill\",\"value\":\"20\"}],\"reason\":\"第 2 行明细的订货数量输入框是 e13，当前的值为空，因此按允许的值填入 20。\"}"
+  }
+ ]
+}

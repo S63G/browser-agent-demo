@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "16f0ab72e3f44bf189b73ae0881bb5748a3844e41728baf219e4a523ef47eb6f",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:35:25+00:00",
+   "usage": {
+    "prompt_tokens": 454,
+    "completion_tokens": 62,
+    "total_tokens": 516,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 12
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 326
+   },
+   "response": "{\"actions\":[{\"ref\":\"e2\",\"op\":\"fill\",\"value\":\"<secret>\"}],\"reason\":\"口令输入框为 e2（input[password]），密码值以 <secret> 占位由程序代填。\"}"
+  }
+ ]
+}

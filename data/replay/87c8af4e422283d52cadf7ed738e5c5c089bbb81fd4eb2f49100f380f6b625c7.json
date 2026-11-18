@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "87c8af4e422283d52cadf7ed738e5c5c089bbb81fd4eb2f49100f380f6b625c7",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:35:28+00:00",
+   "usage": {
+    "prompt_tokens": 522,
+    "completion_tokens": 112,
+    "total_tokens": 634,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 67
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 394
+   },
+   "response": "{\"actions\":[{\"ref\":\"e1\",\"op\":\"click\"}],\"reason\":\"销售订单查询页面对应左侧菜单【销售管理】下的“销售订单列表”，点击该菜单项即可打开查询页面。\"}"
+  }
+ ]
+}

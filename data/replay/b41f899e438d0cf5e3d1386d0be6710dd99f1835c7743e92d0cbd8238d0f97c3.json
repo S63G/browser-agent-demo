@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "b41f899e438d0cf5e3d1386d0be6710dd99f1835c7743e92d0cbd8238d0f97c3",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:33:09+00:00",
+   "usage": {
+    "prompt_tokens": 1027,
+    "completion_tokens": 79,
+    "total_tokens": 1106,
+    "prompt_tokens_details": {
+     "cached_tokens": 893
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 24
+    },
+    "prompt_cache_hit_tokens": 893,
+    "prompt_cache_miss_tokens": 134
+   },
+   "response": "{\"actions\":[{\"ref\":\"e18\",\"op\":\"fill\",\"value\":\"4.01.0005\"}],\"reason\":\"页面存在第 4 行明细，物料编码输入框为 e18，填入允许值 4.01.0005。\"}"
+  }
+ ]
+}

@@ -1,0 +1,307 @@
+{
+ "config": "holdout_scripted",
+ "title": "hold-out v3 · 仅脚本",
+ "mode": "scripted",
+ "llm_mode": "off",
+ "model": null,
+ "summary": {
+  "all": {
+   "tasks": 10,
+   "success": 0,
+   "mean_seconds": 2.0,
+   "median_seconds": 1.8,
+   "needs_human": 10,
+   "needs_human_unexpected": 9,
+   "model_steps": 0,
+   "model_calls": 0,
+   "tasks_using_model": 0
+  },
+  "by_layout": {
+   "v3": {
+    "tasks": 10,
+    "success": 0,
+    "mean_seconds": 2.0,
+    "median_seconds": 1.8,
+    "needs_human": 10,
+    "needs_human_unexpected": 9,
+    "model_steps": 0,
+    "model_calls": 0,
+    "tasks_using_model": 0
+   }
+  },
+  "duplicate_orders": 0,
+  "usage": null
+ },
+ "tasks": [
+  {
+   "id": "T11",
+   "layout": "v3",
+   "kind": "search_po",
+   "title": "按客户单号查单",
+   "success": false,
+   "problems": [
+    "status=needs_human: 脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）"
+   ],
+   "statuses": [
+    "needs_human"
+   ],
+   "seconds": 2.33,
+   "needs_human": true,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [
+    "脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）"
+   ],
+   "traces": [
+    "runs\\20261118-015708-042-search_order-0ebd\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T12",
+   "layout": "v3",
+   "kind": "search_paged",
+   "title": "按客户 + 日期范围查单（结果跨两页）",
+   "success": false,
+   "problems": [
+    "status=needs_human: 脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）"
+   ],
+   "statuses": [
+    "needs_human"
+   ],
+   "seconds": 1.76,
+   "needs_human": true,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [
+    "脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）"
+   ],
+   "traces": [
+    "runs\\20261118-015710-043-search_order-df61\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T13",
+   "layout": "v3",
+   "kind": "stock",
+   "title": "查 3 个料号的可用库存（含 1 个不存在的料号）",
+   "success": false,
+   "problems": [
+    "status=needs_human: 脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）"
+   ],
+   "statuses": [
+    "needs_human"
+   ],
+   "seconds": 1.78,
+   "needs_human": true,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [
+    "脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）"
+   ],
+   "traces": [
+    "runs\\20261118-015711-044-check_stock-4d97\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T14",
+   "layout": "v3",
+   "kind": "invoice",
+   "title": "下载已开票订单的发票 PDF",
+   "success": false,
+   "problems": [
+    "status=needs_human ≠ ok: 脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）"
+   ],
+   "statuses": [
+    "needs_human"
+   ],
+   "seconds": 1.78,
+   "needs_human": true,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [
+    "脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）"
+   ],
+   "traces": [
+    "runs\\20261118-015713-045-download_invoice-9470\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T15",
+   "layout": "v3",
+   "kind": "invoice_none",
+   "title": "未开票订单：应如实返回“无发票”",
+   "success": false,
+   "problems": [
+    "status=needs_human ≠ no_invoice: 脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）"
+   ],
+   "statuses": [
+    "needs_human"
+   ],
+   "seconds": 1.75,
+   "needs_human": true,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [
+    "脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）"
+   ],
+   "traces": [
+    "runs\\20261118-015715-046-download_invoice-df79\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T16",
+   "layout": "v3",
+   "kind": "create_twice",
+   "title": "录入 Demo A 订单，再用同一幂等键调用一次",
+   "success": false,
+   "problems": [
+    "status=needs_human ≠ created: 脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）",
+    "未完成提交后核实",
+    "第二次调用 status=needs_human 单号 None",
+    "门户里带此幂等键的订单有 0 张（应为 1）"
+   ],
+   "statuses": [
+    "needs_human",
+    "needs_human"
+   ],
+   "seconds": 3.54,
+   "needs_human": true,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [
+    "脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）",
+    "脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）"
+   ],
+   "traces": [
+    "runs\\20261118-015717-047-create_sales_order_draft-e329\\trace.jsonl",
+    "runs\\20261118-015718-048-create_sales_order_draft-2a08\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T17",
+   "layout": "v3",
+   "kind": "create_lines",
+   "title": "录入多行订单（含箱装物料）",
+   "success": false,
+   "problems": [
+    "status=needs_human ≠ created: 脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）",
+    "未完成提交后核实",
+    "门户里带此幂等键的订单有 0 张（应为 1）"
+   ],
+   "statuses": [
+    "needs_human"
+   ],
+   "seconds": 1.78,
+   "needs_human": true,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [
+    "脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）"
+   ],
+   "traces": [
+    "runs\\20261118-015720-049-create_sales_order_draft-2c36\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T18",
+   "layout": "v3",
+   "kind": "create_timeout",
+   "title": "提交后门户响应超时（故障注入 8 秒）：先核实再决定是否重试",
+   "success": false,
+   "problems": [
+    "status=needs_human ≠ created: 脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）",
+    "未完成提交后核实",
+    "门户里带此幂等键的订单有 0 张（应为 1）"
+   ],
+   "statuses": [
+    "needs_human"
+   ],
+   "seconds": 1.78,
+   "needs_human": true,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [
+    "脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）"
+   ],
+   "traces": [
+    "runs\\20261118-015722-050-create_sales_order_draft-fddb\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T19",
+   "layout": "v3",
+   "kind": "create_rejected",
+   "title": "审批人驳回：不得提交",
+   "success": false,
+   "problems": [
+    "status=needs_human ≠ rejected: 脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）"
+   ],
+   "statuses": [
+    "needs_human"
+   ],
+   "seconds": 1.76,
+   "needs_human": true,
+   "expected_handover": false,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [
+    "脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）"
+   ],
+   "traces": [
+    "runs\\20261118-015724-051-create_sales_order_draft-1b1c\\trace.jsonl"
+   ]
+  },
+  {
+   "id": "T20",
+   "layout": "v3",
+   "kind": "create_inactive",
+   "title": "订单含停用物料：门户报错，转人工",
+   "success": false,
+   "problems": [
+    "status=needs_human ≠ portal_rejected: 脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）"
+   ],
+   "statuses": [
+    "needs_human"
+   ],
+   "seconds": 1.78,
+   "needs_human": true,
+   "expected_handover": true,
+   "model_steps": 0,
+   "model_calls": 0,
+   "cache_steps": 0,
+   "scripted_steps": 0,
+   "messages": [
+    "脚本选择器失效（#username），且未启用模型兜底：在登录页填写登录账号（用户名/工号/操作员代码）"
+   ],
+   "traces": [
+    "runs\\20261118-015726-052-create_sales_order_draft-0e5b\\trace.jsonl"
+   ]
+  }
+ ]
+}

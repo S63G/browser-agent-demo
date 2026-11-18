@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "acc4d37d150f56d3f965d01b1a87832c7426be65876094c81df0cef8a2f3f8fd",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:31:58+00:00",
+   "usage": {
+    "prompt_tokens": 497,
+    "completion_tokens": 50,
+    "total_tokens": 547,
+    "prompt_tokens_details": {
+     "cached_tokens": 256
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 8
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 241
+   },
+   "response": "{\"actions\":[{\"ref\":\"e7\",\"op\":\"click\"}],\"reason\":\"“查询库存”按钮是提交查询的按钮，点击它即可按当前输入的存货编码/名称查询库存。\"}"
+  }
+ ]
+}

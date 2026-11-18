@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "50d9e644ac98830792f0cf430ce6bc39b75bbd56952a33c5e9f97d89f88934a4",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:35:41+00:00",
+   "usage": {
+    "prompt_tokens": 834,
+    "completion_tokens": 76,
+    "total_tokens": 910,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 23
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 706
+   },
+   "response": "{\"actions\":[{\"ref\":\"e9\",\"op\":\"fill\",\"value\":\"20261115\"}],\"reason\":\"截止日期对应“日期至”输入框 e9，页面要求格式为 yyyymmdd，故填写 20261115。\"}"
+  }
+ ]
+}

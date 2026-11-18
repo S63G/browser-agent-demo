@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "963835b103fcd7883dd91b7a102a3647aea32e17f3599e97ab1cb23320b0efaa",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:38:43+00:00",
+   "usage": {
+    "prompt_tokens": 2038,
+    "completion_tokens": 150,
+    "total_tokens": 2188,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 57
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1910
+   },
+   "response": "{\"actions\":[{\"ref\":\"e10\",\"op\":\"select\",\"value\":\"2026\"},{\"ref\":\"e11\",\"op\":\"select\",\"value\":\"11\"},{\"ref\":\"e12\",\"op\":\"select\",\"value\":\"25\"}],\"reason\":\"交货日期由年、月、日三个下拉框组成，分别选择 2026 年、11 月、25 日，即可填写到货日 2026-11-25。\"}"
+  }
+ ]
+}

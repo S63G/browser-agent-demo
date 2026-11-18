@@ -1,0 +1,42 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "3947039edd5e1e39a6942c6246e69a5570d08c21c14f795e5f13ce85a6f33d25",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:34:19+00:00",
+   "usage": {
+    "prompt_tokens": 935,
+    "completion_tokens": 68,
+    "total_tokens": 1003,
+    "prompt_tokens_details": {
+     "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 27
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 551
+   },
+   "response": "{\"actions\":[{\"ref\":\"e13\",\"op\":\"click\"}],\"reason\":\"查询结果中单据号 XS26110027 的链接是 e13，点击可打开单据详情。\"}"
+  },
+  {
+   "recorded_at": "2026-11-18T08:34:24+00:00",
+   "usage": {
+    "prompt_tokens": 935,
+    "completion_tokens": 41,
+    "total_tokens": 976,
+    "prompt_tokens_details": {
+     "cached_tokens": 768
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 167
+   },
+   "response": "{\"actions\":[{\"ref\":\"e13\",\"op\":\"click\"}],\"reason\":\"查询结果中的单号 XS26110027 是链接 e13，点击其可打开单据详情。\"}"
+  }
+ ]
+}

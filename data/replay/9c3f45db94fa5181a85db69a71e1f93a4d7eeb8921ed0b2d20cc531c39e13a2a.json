@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "9c3f45db94fa5181a85db69a71e1f93a4d7eeb8921ed0b2d20cc531c39e13a2a",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:32:06+00:00",
+   "usage": {
+    "prompt_tokens": 488,
+    "completion_tokens": 29,
+    "total_tokens": 517,
+    "prompt_tokens_details": {
+     "cached_tokens": 256
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 18
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 232
+   },
+   "response": "{\"found\": false, \"items\": []}"
+  }
+ ]
+}

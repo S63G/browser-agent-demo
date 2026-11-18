@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "3625fa797b73813bd549b224f42023d3910d18bf7b0edc7e04407a8e58f798d8",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:33:28+00:00",
+   "usage": {
+    "prompt_tokens": 935,
+    "completion_tokens": 56,
+    "total_tokens": 991,
+    "prompt_tokens_details": {
+     "cached_tokens": 768
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 15
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 167
+   },
+   "response": "{\"actions\":[{\"ref\":\"e13\",\"op\":\"click\"}],\"reason\":\"查询结果中单据号 XS26110025 对应链接为 e13，点击可打开单据详情。\"}"
+  }
+ ]
+}

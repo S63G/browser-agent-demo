@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "4463434cd8cda64095454ba7b3ee61116858562f6adff8594473f90168bed5f0",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:41+00:00",
+   "usage": {
+    "prompt_tokens": 2040,
+    "completion_tokens": 66,
+    "total_tokens": 2106,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 15
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1912
+   },
+   "response": "{\"actions\":[{\"ref\":\"e19\",\"op\":\"fill\",\"value\":\"16.9\"}],\"reason\":\"第 2 行明细的含税单价输入框是 e19（当前为空），填入允许的值 16.9。\"}"
+  }
+ ]
+}

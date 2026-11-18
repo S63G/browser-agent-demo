@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "c15bcbd1746a96b2c84fc5b1ab8fad59c7a1bf7da3fd6100158c275ebf51b4e0",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:37:33+00:00",
+   "usage": {
+    "prompt_tokens": 1040,
+    "completion_tokens": 87,
+    "total_tokens": 1127,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 43
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 912
+   },
+   "response": "{\"actions\":[{\"ref\":\"e11\",\"op\":\"click\"}],\"reason\":\"查询结果第1行的单据号 XS26110023 是链接（e11），点击即可打开该单据详情。\"}"
+  }
+ ]
+}

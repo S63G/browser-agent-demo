@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "d752aa970756aa470ba6574b88c5649a79502e8ad802cc0f8ab6a22397be42ea",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:38:28+00:00",
+   "usage": {
+    "prompt_tokens": 2044,
+    "completion_tokens": 141,
+    "total_tokens": 2185,
+    "prompt_tokens_details": {
+     "cached_tokens": 640
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 78
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 1404
+   },
+   "response": "{\"actions\":[],\"reason\":\"明细输入框（存货编码 e14/e17/e20、数量 e15/e18/e21、含税单价 e16/e19/e22）已在本页显示，页面无“进入下一步/填写明细”这类按钮，按规则返回空数组。\"}"
+  }
+ ]
+}

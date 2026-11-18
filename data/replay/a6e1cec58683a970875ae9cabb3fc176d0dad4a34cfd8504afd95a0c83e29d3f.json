@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "a6e1cec58683a970875ae9cabb3fc176d0dad4a34cfd8504afd95a0c83e29d3f",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:32:16+00:00",
+   "usage": {
+    "prompt_tokens": 704,
+    "completion_tokens": 64,
+    "total_tokens": 768,
+    "prompt_tokens_details": {
+     "cached_tokens": 512
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 23
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 192
+   },
+   "response": "{\"actions\":[{\"ref\":\"e6\",\"op\":\"click\"}],\"reason\":\"单据状态为已开票，页面提供「电子发票 PDF」链接，点击该链接即可下载发票。\"}"
+  }
+ ]
+}

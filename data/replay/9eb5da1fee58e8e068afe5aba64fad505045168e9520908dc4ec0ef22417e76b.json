@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "9eb5da1fee58e8e068afe5aba64fad505045168e9520908dc4ec0ef22417e76b",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:37:08+00:00",
+   "usage": {
+    "prompt_tokens": 599,
+    "completion_tokens": 152,
+    "total_tokens": 751,
+    "prompt_tokens_details": {
+     "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 84
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 215
+   },
+   "response": "{\"rows\":[{\"order_no\":\"XS26110022\",\"customer_po\":\"YG-2611-0457\",\"customer\":\"甬港澄远机械配件厂\",\"order_date\":\"2026-11-02\",\"delivery_date\":\"2026-11-10\",\"amount\":8850,\"status\":\"草稿\"}]}"
+  }
+ ]
+}

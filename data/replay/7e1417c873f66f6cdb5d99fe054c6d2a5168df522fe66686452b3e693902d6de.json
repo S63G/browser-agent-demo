@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "7e1417c873f66f6cdb5d99fe054c6d2a5168df522fe66686452b3e693902d6de",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:33:01+00:00",
+   "usage": {
+    "prompt_tokens": 886,
+    "completion_tokens": 46,
+    "total_tokens": 932,
+    "prompt_tokens_details": {
+     "cached_tokens": 640
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 246
+   },
+   "response": "{\"actions\":[{\"ref\":\"e14\",\"op\":\"fill\",\"value\":\"16.9\"}],\"reason\":\"第 2 行含税单价输入框是 e14，填入允许值 16.9。\"}"
+  }
+ ]
+}

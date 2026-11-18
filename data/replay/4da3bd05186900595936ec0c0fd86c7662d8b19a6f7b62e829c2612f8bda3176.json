@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "4da3bd05186900595936ec0c0fd86c7662d8b19a6f7b62e829c2612f8bda3176",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:37:04+00:00",
+   "usage": {
+    "prompt_tokens": 804,
+    "completion_tokens": 107,
+    "total_tokens": 911,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 53
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 676
+   },
+   "response": "{\"actions\":[{\"ref\":\"e5\",\"op\":\"click\"}],\"reason\":\"页面为订单确认页，e5 是“确 定”按钮，用于确认保存该销售订单；e6 为“返回修改”，不符合提交要求。\"}"
+  }
+ ]
+}

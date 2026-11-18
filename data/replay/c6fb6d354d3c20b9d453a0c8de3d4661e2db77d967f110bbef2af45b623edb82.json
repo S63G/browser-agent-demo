@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "c6fb6d354d3c20b9d453a0c8de3d4661e2db77d967f110bbef2af45b623edb82",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:34:00+00:00",
+   "usage": {
+    "prompt_tokens": 917,
+    "completion_tokens": 59,
+    "total_tokens": 976,
+    "prompt_tokens_details": {
+     "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 20
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 533
+   },
+   "response": "{\"actions\":[],\"reason\":\"页面明细仅显示第 1、2、3 行，没有第 4 行，无法填写第 4 行物料编码\"}"
+  }
+ ]
+}

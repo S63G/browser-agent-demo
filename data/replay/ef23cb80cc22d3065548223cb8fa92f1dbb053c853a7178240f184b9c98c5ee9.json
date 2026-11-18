@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "ef23cb80cc22d3065548223cb8fa92f1dbb053c853a7178240f184b9c98c5ee9",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:33:23+00:00",
+   "usage": {
+    "prompt_tokens": 764,
+    "completion_tokens": 29,
+    "total_tokens": 793,
+    "prompt_tokens_details": {
+     "cached_tokens": 512
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 252
+   },
+   "response": "{\"actions\":[{\"ref\":\"e7\",\"op\":\"click\"}],\"reason\":\"点击“确认保存”按钮提交并保存订单。\"}"
+  }
+ ]
+}

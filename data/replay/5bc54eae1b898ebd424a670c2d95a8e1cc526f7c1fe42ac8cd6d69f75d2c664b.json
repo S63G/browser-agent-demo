@@ -1,0 +1,42 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "5bc54eae1b898ebd424a670c2d95a8e1cc526f7c1fe42ac8cd6d69f75d2c664b",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:38:12+00:00",
+   "usage": {
+    "prompt_tokens": 828,
+    "completion_tokens": 175,
+    "total_tokens": 1003,
+    "prompt_tokens_details": {
+     "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 444
+   },
+   "response": "{\"order_no\":\"XS26110024\",\"customer\":\"C001 沪东衡砺设备维修有限公司\",\"customer_po\":\"HL-PO-261113-01\",\"order_date\":\"2026-11-13\",\"delivery_date\":\"2026-11-23\",\"status\":\"草稿\",\"remark\":\"[ik-68a914f10cec] 浏览器Agent录入\",\"total\":1211.50,\"lines\":[{\"sku\":\"8.02.0008\",\"qty\":10,\"unit_price\":21.50},{\"sku\":\"2.01.0005\",\"qty\":3,\"unit_price\":216.70},{\"sku\":\"4.02.0002\",\"qty\":2,\"unit_price\":100.00},{\"sku\":\"8.03.0003\",\"qty\":12,\"unit_price\":12.20}]}"
+  },
+  {
+   "recorded_at": "2026-11-18T08:38:19+00:00",
+   "usage": {
+    "prompt_tokens": 828,
+    "completion_tokens": 324,
+    "total_tokens": 1152,
+    "prompt_tokens_details": {
+     "cached_tokens": 640
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 112
+    },
+    "prompt_cache_hit_tokens": 640,
+    "prompt_cache_miss_tokens": 188
+   },
+   "response": "{\"order_no\": \"XS26110024\", \"customer\": \"C001 沪东衡砺设备维修有限公司\", \"customer_po\": \"HL-PO-261113-01\", \"order_date\": \"2026-11-13\", \"delivery_date\": \"2026-11-23\", \"status\": \"草稿\", \"remark\": \"[ik-68a914f10cec] 浏览器Agent录入\", \"total\": 1211.5, \"lines\": [{\"sku\": \"8.02.0008\", \"qty\": 10, \"unit_price\": 21.5}, {\"sku\": \"2.01.0005\", \"qty\": 3, \"unit_price\": 216.7}, {\"sku\": \"4.02.0002\", \"qty\": 2, \"unit_price\": 100}, {\"sku\": \"8.03.0003\", \"qty\": 12, \"unit_price\": 12.2}]}"
+  }
+ ]
+}

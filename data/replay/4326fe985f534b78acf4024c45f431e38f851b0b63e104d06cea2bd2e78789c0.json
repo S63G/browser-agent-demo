@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "4326fe985f534b78acf4024c45f431e38f851b0b63e104d06cea2bd2e78789c0",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:31:47+00:00",
+   "usage": {
+    "prompt_tokens": 1071,
+    "completion_tokens": 1121,
+    "total_tokens": 2192,
+    "prompt_tokens_details": {
+     "cached_tokens": 896
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 476
+    },
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 175
+   },
+   "response": "{\"rows\":[{\"order_no\":\"XS26110021\",\"customer_po\":\"CL-PO-20261113\",\"customer\":\"苏州晨岚汇自动化设备有限公司\",\"order_date\":\"2026-11-13\",\"delivery_date\":\"2026-11-23\",\"amount\":859.40,\"status\":\"草稿\"},{\"order_no\":\"XS26110016\",\"customer_po\":\"CL-PO-20261111\",\"customer\":\"苏州晨岚汇自动化设备有限公司\",\"order_date\":\"2026-11-11\",\"delivery_date\":\"2026-11-25\",\"amount\":3535.60,\"status\":\"草稿\"},{\"order_no\":\"XS26110011\",\"customer_po\":\"CL-PO-20261106A\",\"customer\":\"苏州晨岚汇自动化设备有限公司\",\"order_date\":\"2026-11-06\",\"delivery_date\":\"2026-11-16\",\"amount\":3050.00,\"status\":\"已审核\"},{\"order_no\":\"XS26110007\",\"customer_po\":\"CL-PO-20261105\",\"customer\":\"苏州晨岚汇自动化设备有限公司\",\"order_date\":\"2026-11-05\",\"delivery_date\":\"2026-11-10\",\"amount\":2218.00,\"status\":\"已发货\"},{\"order_no\":\"XS26110001\",\"customer_po\":\"CL-PO-20261102\",\"customer\":\"苏州晨岚汇自动化设备有限公司\",\"order_date\":\"2026-11-02\",\"delivery_date\":\"2026-11-12\",\"amount\":27685.00,\"status\":\"已发货\"},{\"order_no\":\"XS26100022\",\"customer_po\":\"CL-PO-20261029\",\"customer\":\"苏州晨岚汇自动化设备有限公司\",\"order_date\":\"2026-10-29\",\"delivery_date\":\"2026-11-08\",\"amount\":184.00,\"status\":\"已发货\"},{\"order_no\":\"XS26100018\",\"customer_po\":\"CL-PO-20261028\",\"customer\":\"苏州晨岚汇自动化设备有限公司\",\"order_date\":\"2026-10-28\",\"delivery_date\":\"2026-11-02\",\"amount\":119.00,\"status\":\"已发货\"},{\"order_no\":\"XS26100016\",\"customer_po\":\"CL-PO-20261027\",\"customer\":\"苏州晨岚汇自动化设备有限公司\",\"order_date\":\"2026-10-27\",\"delivery_date\":\"2026-11-01\",\"amount\":4944.80,\"status\":\"已发货\"},{\"order_no\":\"XS26100014\",\"customer_po\":\"CL-PO-20261022\",\"customer\":\"苏州晨岚汇自动化设备有限公司\",\"order_date\":\"2026-10-22\",\"delivery_date\":\"2026-10-27\",\"amount\":364.00,\"status\":\"已开票\"},{\"order_no\":\"XS26100010\",\"customer_po\":\"CL-PO-20261019\",\"customer\":\"苏州晨岚汇自动化设备有限公司\",\"order_date\":\"2026-10-19\",\"delivery_date\":\"2026-11-02\",\"amount\":1936.20,\"status\":\"已开票\"}]}"
+  }
+ ]
+}

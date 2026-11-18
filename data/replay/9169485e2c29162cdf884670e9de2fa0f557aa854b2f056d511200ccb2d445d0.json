@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "9169485e2c29162cdf884670e9de2fa0f557aa854b2f056d511200ccb2d445d0",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:35:49+00:00",
+   "usage": {
+    "prompt_tokens": 1234,
+    "completion_tokens": 75,
+    "total_tokens": 1309,
+    "prompt_tokens_details": {
+     "cached_tokens": 256
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 36
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 978
+   },
+   "response": "{\"actions\":[],\"reason\":\"页面显示“第2/2页”，当前已是最后一页，元素列表中没有可用的“下页”链接，无法翻到下一页。\"}"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "f09ab573eaa9057534d1df71b64ca6e778b5786d8c7385ff7a053188eba0483d",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:36:25+00:00",
+   "usage": {
+    "prompt_tokens": 2005,
+    "completion_tokens": 121,
+    "total_tokens": 2126,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 59
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1877
+   },
+   "response": "{\"actions\":[{\"ref\":\"e5\",\"op\":\"fill\",\"value\":\"C002\"}],\"reason\":\"客户编码输入框 e5 为空，填写允许值中的客户编码 C002（客户名称“甬港澄远机械配件厂”为对应名称，编码字段应填编码）。\"}"
+  }
+ ]
+}

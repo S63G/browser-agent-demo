@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "72d60298c141b997b0d7405cac338e02ac3a8a454e6119539a1cfee0661938f0",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:35:55+00:00",
+   "usage": {
+    "prompt_tokens": 585,
+    "completion_tokens": 54,
+    "total_tokens": 639,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 19
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 457
+   },
+   "response": "{\"actions\":[{\"ref\":\"e6\",\"op\":\"click\"}],\"reason\":\"页面中“查询”按钮对应元素 e6，点击它执行库存查询。\"}"
+  }
+ ]
+}

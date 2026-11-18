@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "ce10a5ac649b53c0620c30c853024e5a79e27c06aa9bcd1a074c7d66131b4850",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:35:39+00:00",
+   "usage": {
+    "prompt_tokens": 831,
+    "completion_tokens": 79,
+    "total_tokens": 910,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 26
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 703
+   },
+   "response": "{\"actions\":[{\"ref\":\"e8\",\"op\":\"fill\",\"value\":\"20261001\"}],\"reason\":\"起始日期对应“日期从”输入框 e8，其标签要求格式 yyyymmdd，因此填入 20261001。\"}"
+  }
+ ]
+}

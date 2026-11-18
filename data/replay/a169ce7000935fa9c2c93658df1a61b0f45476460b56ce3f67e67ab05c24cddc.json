@@ -1,0 +1,25 @@
+{
+ "source": "live",
+ "provider": "deepseek",
+ "model": "deepseek-flash",
+ "request_sha256": "a169ce7000935fa9c2c93658df1a61b0f45476460b56ce3f67e67ab05c24cddc",
+ "calls": [
+  {
+   "recorded_at": "2026-11-18T08:32:04+00:00",
+   "usage": {
+    "prompt_tokens": 525,
+    "completion_tokens": 454,
+    "total_tokens": 979,
+    "prompt_tokens_details": {
+     "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 384
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 141
+   },
+   "response": "{\"found\": true, \"items\": [{\"sku\": \"7.02.0005\", \"name\": \"PVC电工胶带 18mm×20m 黄色\", \"spec\": \"\", \"unit\": \"箱\", \"on_hand\": 73, \"available\": 56, \"status\": \"启用\"}]}"
+  }
+ ]
+}
